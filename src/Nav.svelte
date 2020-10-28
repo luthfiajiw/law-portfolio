@@ -1,5 +1,5 @@
 <script>
-
+    import language from './utils/language.js'
 </script>
 
 <div class="navigation my-2">
@@ -7,7 +7,7 @@
         <button class="btn-nav ml-2 mt-2">Flutter</button>
         <button class="btn-nav mx-2 mt-2">React JS</button>
         <button class="btn-nav mt-2">Express JS</button>
-        <button class="btn-nav mx-2 mt-2">About Me</button>
+        <button class="btn-nav mx-2 mt-2">{language.me.en}</button>
     </div>
 </div>
 

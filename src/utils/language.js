@@ -1,5 +1,6 @@
-export modules = {
-    id: {
-        name: "Luthfi Aji"
+module.exports = {
+    me: {
+        id: "Aku :)",
+        en: "Me :)"
     }
 }

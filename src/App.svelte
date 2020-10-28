@@ -1,4 +1,5 @@
 <script>
+	import Content from "./Content.svelte";
 	import Header from "./Header.svelte";
 	import Nav from "./Nav.svelte";
 </script>
@@ -7,6 +8,7 @@
     <div class="header-background" />
 	<Header />
 	<Nav />
+	<Content />
 </div>
 
 <style>
