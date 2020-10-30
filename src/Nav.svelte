@@ -1,13 +1,45 @@
 <script>
-    import language from './utils/language.js'
+    import language from './utils/language.js';
+    import { createEventDispatcher } from "svelte";
+
+    const dispatch = createEventDispatcher();
+    export let navActive = 0;
+    function handleNav(index) {
+        dispatch('handleNav', index);
+    }
+
 </script>
 
 <div class="navigation my-2">
     <div class="row justify-content-center">
-        <button class="btn-nav ml-2 mt-2">Flutter</button>
-        <button class="btn-nav mx-2 mt-2">React JS</button>
-        <button class="btn-nav mt-2">Express JS</button>
-        <button class="btn-nav mx-2 mt-2">{language.me.en}</button>
+        <button
+            class="btn-nav ml-2 mt-2 animate_animated animate__bounceIn flutter-btn"
+            class:btn-active={navActive === 0}
+            on:click={() => handleNav(0)}
+        >
+            Flutter
+        </button>
+        <button
+            class="btn-nav mx-2 mt-2 animate_animated animate__bounceIn react-btn"
+            class:btn-active={navActive === 1}
+            on:click={() => handleNav(1)}
+        >
+            React JS
+        </button>
+        <button
+            class="btn-nav mt-2 animate_animated animate__bounceIn exp-btn"
+            class:btn-active={navActive === 2}
+            on:click={() => handleNav(2)}
+        >
+            Express JS
+        </button>
+        <button
+            class="btn-nav mx-2 mt-2 animate_animated animate__bounceIn me-btn"
+            class:btn-active={navActive === 3}
+            on:click={() => handleNav(3)}
+        >
+            {language.me.en}
+        </button>
     </div>
 </div>
 
@@ -19,5 +51,23 @@
         border-radius: 25px;
         padding: 5px 15px 5px 15px;
         font-size: 12px;
+    }
+
+    .btn-active {
+        background-color:  #839f96 !important;
+        color: #fff !important;
+        border-color:  #839f96 !important;
+    }
+    .flutter-btn {
+        --animate-duration: 1s;
+    }
+    .react-btn {
+        --animate-duration: 1.5s;
+    }
+    .exp-btn {
+        --animate-duration: 2s;
+    }
+    .me-btn {
+        --animate-duration: 2.5s;
     }
 </style>
