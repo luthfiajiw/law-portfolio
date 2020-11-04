@@ -52,6 +52,9 @@
     }
     .avatar {
         background-color: #eee;
+        background-image: url('./assets/ava.jpg');
+        background-position: center;
+        background-size: cover;
         height: 120px;
         width: 120px;
         position: absolute;
