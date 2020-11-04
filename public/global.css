@@ -25,6 +25,10 @@ body {
 	color: #feb162;
 }
 
+button:focus {
+	outline:0 !important;
+}
+
 a {
 	color: rgb(0,100,200);
 	text-decoration: none;

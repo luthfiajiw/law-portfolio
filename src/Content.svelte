@@ -12,9 +12,9 @@
         <FlutterContents />
     {:else if navActive === 1}
         <ReactContents />
+    <!-- {:else if navActive === 2}
+        <ExpressContents /> -->
     {:else if navActive === 2}
-        <ExpressContents />
-    {:else if navActive === 3}
         <MeContents />
     {/if}
 </div>

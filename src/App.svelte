@@ -3,7 +3,7 @@
 	import Header from "./Header.svelte";
 	import Nav from "./Nav.svelte";
 	
-	let navActive = 1; 
+	let navActive = 0; 
 	function handleNav(e) {
 		navActive = e.detail;
 	}
@@ -24,7 +24,10 @@
 	.header-background {
         height: 240px;
         width: 100%;
-        background-color: #839f96;
+		background-color: #839f96;
+		background-image: url('./assets/bg-header.jpg');
+		background-size: contain;
+		background-position: center;
         position: absolute;
     }
 </style>

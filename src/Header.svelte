@@ -64,7 +64,7 @@
         left: 0;
         right: 0;
         border-radius: 50%;
-        border: 10px solid #839f96;
+        border: 10px solid #fff;
     }
     .profile {
         text-align: center;
