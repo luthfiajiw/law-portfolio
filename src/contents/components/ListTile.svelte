@@ -20,7 +20,7 @@
     <div class="app-desc my-3 text-secondary">
         {description}
     </div>
-    <div class="highlights text-secondary mt-4">
+    <div class="highlights text-secondary mt-4" hidden={highlights === undefined}>
         <p>HIGHLIGHTS</p>
         <div class="row" style="margin-left: -5px">
             <div class="app-highlight"></div>

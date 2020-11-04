@@ -3,7 +3,7 @@
 	import Header from "./Header.svelte";
 	import Nav from "./Nav.svelte";
 	
-	let navActive = 0; 
+	let navActive = 1; 
 	function handleNav(e) {
 		navActive = e.detail;
 	}

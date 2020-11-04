@@ -3,7 +3,7 @@
     import { createEventDispatcher } from "svelte";
 
     const dispatch = createEventDispatcher();
-    export let navActive = 0;
+    export let navActive;
     function handleNav(index) {
         dispatch('handleNav', index);
     }
