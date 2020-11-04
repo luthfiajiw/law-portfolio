@@ -1,11 +1,11 @@
 <div class="me-content">
     <div class="main-img"></div>
-    <p class="mt-3 text-black">Sedang dalam proses mencari inspirasi...</p>
+    <p class="mt-1 text-black">Sedang dalam proses mencari inspirasi...</p>
 </div>
 
 <style>
     .me-content {
-        margin-top: 2.5rem;
+        margin-top: 2rem;
         text-align: center;
     }
     .main-img {

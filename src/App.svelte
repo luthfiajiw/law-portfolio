@@ -27,7 +27,8 @@
 		background-color: #839f96;
 		background-image: url('./assets/bg-header.jpg');
 		background-size: contain;
-		background-position: center;
+		/* background-position: center; */
+		background-repeat: no-repeat;
         position: absolute;
     }
 </style>
