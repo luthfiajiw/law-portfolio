@@ -48,7 +48,7 @@
                     <span class="period">Feb 2019 - Sep 2019</span>
                 </p>
                 <div class="text-secondary">
-                    Selain mengajar, sebagai mentor React JS pada awal-awal batch frontend dibuka saya bertugas menyusun kurikulum frontend bersama tim mentor React JS yang lainnya.
+                    Selain mengajar, sebagai mentor React JS pada awal-awal batch frontend diadakan saya bertugas menyusun kurikulum frontend bersama tim mentor React JS yang lainnya.
                     Kurikulum tersebut mencakup materi tentang dasar-dasar algoritma pemrograman sampai dengan interaksi/komunikasi antara backend dengan frontend.
                 </div>
             </div>
