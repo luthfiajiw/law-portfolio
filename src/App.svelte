@@ -47,14 +47,14 @@
 		height: 240px;
 		width: 100%;
 		position: absolute;
-		background-color: rgba(131,159,150, .8);
+		background-color: rgba(131,159,150, .5);
 	}
 
 	.footer {
 		font-size: 12px;
 		text-align: center;
 		color: #aeaeae;
-		margin-top: 55px;
+		margin-top: 100px;
 		margin-left: 30px;
 		margin-right: 30px;
 	}

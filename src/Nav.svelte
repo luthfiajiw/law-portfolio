@@ -54,7 +54,7 @@
     }
 
     .btn-active {
-        background-color:  rgba(131,159,150, .8)!important;
+        background-color:  rgba(131,159,150, .5)!important;
         color: #fff !important;
         border: none;
     }
@@ -63,9 +63,6 @@
     }
     .react-btn {
         --animate-duration: 1.5s;
-    }
-    .exp-btn {
-        --animate-duration: 2s;
     }
     .me-btn {
         --animate-duration: 2.5s;

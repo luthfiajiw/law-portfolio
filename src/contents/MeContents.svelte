@@ -49,13 +49,13 @@
                 </p>
                 <div class="text-secondary">
                     Selain mengajar, sebagai mentor React JS pada awal-awal batch frontend dibuka saya bertugas menyusun kurikulum frontend bersama tim mentor React JS yang lainnya.
-                    Kurikulum tersebut mencakup mulai dari dasar-dasar algoritma pemrograman sampai dengan interaksi/komunikasi antara backend dengan frontend.
+                    Kurikulum tersebut mencakup materi tentang dasar-dasar algoritma pemrograman sampai dengan interaksi/komunikasi antara backend dengan frontend.
                 </div>
             </div>
         </div>
     </div>
     <div class="row align-items-start">
-        <div class="col-6">
+        <div class="col-md-6">
             <div class="languages" style="margin-top: 30px">
                 <h6 class="text-black mb-4">BAHASA</h6>
                 <div class="step">
@@ -90,7 +90,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-6">
+        <div class="col-md-6">
             <div class="interests" style="margin-top: 30px">
                 <h6 class="text-black mb-4">MINAT</h6>
                 <div class="step">
@@ -213,8 +213,8 @@
     .lozenges {
         border-radius: 4px;
         color: #fff;
-        font-size: 12px;
+        font-size: 10px;
         padding: 5px 8px 5px 8px;
-        background-color: rgba(131,159,150, .3);
+        background-color: rgba(131,159,150, .2);
     }    
 </style>
