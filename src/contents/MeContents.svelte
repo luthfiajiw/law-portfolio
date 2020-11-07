@@ -164,7 +164,7 @@
     }
     .period {
         font-size: 12px;
-        color: #aeaeae;
+        color: rgba(131,159,150, .5);
     }
     .step {
         display: flex;
@@ -175,7 +175,7 @@
         position: relative;
     }
     .stepper .circle {
-        border: 3px solid gray;
+        border: 3px solid rgba(131,159,150, .5);
         background-color: #fff;
         border-radius: 100%;
         width: 20px;
@@ -186,8 +186,8 @@
 
     .stepper .circle .circle2 {
         position: absolute;
-        border: 3px solid gray;
-        background-color: gray;
+        border: 3px solid rgba(131,159,150, .5);
+        background-color: rgba(131,159,150, .5);
         border-radius: 100%;
         width: 10px;
         height: 10px;
@@ -204,7 +204,7 @@
         left: 9px;
         height: 100%;
         position: absolute;
-        border-left: 3px solid gray;
+        border-left: 3px solid rgba(131,159,150, .5);
     }
     .content {
         margin-left: 20px;

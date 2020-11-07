@@ -53,7 +53,7 @@
 	.footer {
 		font-size: 12px;
 		text-align: center;
-		color: #aeaeae;
+		color: rgba(131,159,150, .5);
 		margin-top: 100px;
 		margin-left: 30px;
 		margin-right: 30px;
