@@ -1,7 +1,6 @@
 <script>
     import FlutterContents from "./contents/FlutterContents.svelte";
     import ReactContents from "./contents/ReactContents.svelte";
-    import ExpressContents from "./contents/ExpressContents.svelte";
     import MeContents from "./contents/MeContents.svelte";
 
     export let navActive;

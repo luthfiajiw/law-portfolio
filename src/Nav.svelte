@@ -54,9 +54,9 @@
     }
 
     .btn-active {
-        background-color:  #839f96 !important;
+        background-color:  rgba(131,159,150, .8)!important;
         color: #fff !important;
-        border-color:  #839f96 !important;
+        border: none;
     }
     .flutter-btn {
         --animate-duration: 1s;

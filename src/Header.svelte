@@ -41,7 +41,7 @@
         font-size: 16px;
     }
     .header {
-        padding-top: 8rem;
+        padding-top: 10rem;
     }
     .bio-box {
         background-color: #fff;

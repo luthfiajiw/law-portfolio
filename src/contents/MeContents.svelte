@@ -1,20 +1,220 @@
-<div class="me-content">
-    <div class="main-img"></div>
-    <p class="mt-1 text-black">Sedang dalam proses mencari inspirasi...</p>
+<div class="me-content mx-3 my-4">
+    <div class="welcome mb-5">
+        <h6 class="text-black mb-4">HALO !</h6>
+        <div class="text-secondary">
+            Selamat datang di profile saya yang sangat sederhana ini. Salam kenal, bisa dibilang saya adalah orang yang mencintai dunia programming melalui pencarian jati diri.
+            Ya, karena sebelum menjadi seorang Programmer saya sempat mempelajari berbagai macam keahlian untuk mengetahui dimana <em>passion</em> saya berada.
+            Sampai pada akhirnya saya mulai menekuni bidang ini dan hingga sekarang pun saya masih terus mempelajari dunia teknologi yang sangat luas ini.
+            <br><br>
+            Selamat melihat-lihat profile ini. Semoga kamu nyaman :)
+            <br><br>
+            Oh iya, website ini masih didesain untuk interface <i>mobile</i> saja. Saya masih mencari inspirasi desain untuk diterapkan pada tampilan desktop.
+            Kalau kamu mau ikut berkontribusi bisa kenalan dengan saya lewat akun sosmed di atas ya, hehe terimakasih.
+        </div>
+    </div>
+
+    <div class="experience mb-5">
+        <h6 class="text-black mb-4">PEKERJAAN</h6>
+        <div class="step">
+            <div class="stepper">
+                <div class="circle">
+                    <div class="circle2" />
+                </div>
+                <div class="line"></div>
+            </div>
+            <div class="content">
+                <p class="job text-black">Frontend Developer</p>
+                <p class="company text-black">
+                    Zahir <br>
+                    <span class="period">Nov 2019 - Sekarang</span>
+                </p>
+                <div class="text-secondary mb-3">
+                    Saya bertugas dalam mengembangkan aplikasi mobile <em>cross-platform</em> berbasis flutter. Tanggung jawab utama saya adalah mengoptimasi fitur yang sudah ada 
+                    dan mengembangkan fitur-fitur baru pada aplikasi Tokoku. Saya juga bertugas mem<em>build</em> dan menyiapkan aplikasi untuk masuk ke tahap pengujian.
+                </div>
+            </div>
+        </div>
+        <div class="step">
+            <div class="stepper">
+                <div class="circle">
+                    <div class="circle2" />
+                </div>
+                <div class="line"></div>
+            </div>
+            <div class="content">
+                <p class="job text-black">Mentor</p>
+                <p class="company text-black">
+                    Pondok IT Jogjakarta <br>
+                    <span class="period">Feb 2019 - Sep 2019</span>
+                </p>
+                <div class="text-secondary">
+                    Selain mengajar, sebagai mentor React JS pada awal-awal batch frontend dibuka saya bertugas menyusun kurikulum frontend bersama tim mentor React JS yang lainnya.
+                    Kurikulum tersebut mencakup mulai dari dasar-dasar algoritma pemrograman sampai dengan interaksi/komunikasi antara backend dengan frontend.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row align-items-start">
+        <div class="col-6">
+            <div class="languages" style="margin-top: 30px">
+                <h6 class="text-black mb-4">BAHASA</h6>
+                <div class="step">
+                    <div class="stepper">
+                        <div class="circle">
+                            <div class="circle2" />
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="job text-black">Indonesia</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="stepper">
+                        <div class="circle">
+                            <div class="circle2" />
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="job text-black">Arab <span class="ml-4 lozenges">FUNDAMENTAL</span></p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="stepper">
+                        <div class="circle">
+                            <div class="circle2" />
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="job text-black">Inggris <span class="ml-2 lozenges">FUNDAMENTAL</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="interests" style="margin-top: 30px">
+                <h6 class="text-black mb-4">MINAT</h6>
+                <div class="step">
+                    <div class="stepper">
+                        <div class="circle">
+                            <div class="circle2" />
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="job text-black">Backend Development</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="stepper">
+                        <div class="circle">
+                            <div class="circle2" />
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="job text-black">Software Architecture</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="stepper">
+                        <div class="circle">
+                            <div class="circle2" />
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="job text-black">Bahasa Jerman</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="stepper">
+                        <div class="circle">
+                            <div class="circle2" />
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="job text-black">Ilmu Perbankan</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="stepper">
+                        <div class="circle">
+                            <div class="circle2" />
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="job text-black">Manajemen Bank</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <style>
     .me-content {
         margin-top: 2rem;
-        text-align: center;
     }
-    .main-img {
-        text-align: center;
-        height: 250px;
-        /* width: 200px; */
-        background-image: url('./assets/programming.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+    .experience h6, .welcome h6, .languages h6, .interests h6{
+        letter-spacing: .2rem;
+        font-weight: bold;
     }
+    .job {
+        font-weight: bold;
+    }
+    .company {
+        margin-bottom: 0px;
+    }
+    .period {
+        font-size: 12px;
+        color: #aeaeae;
+    }
+    .step {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .stepper {
+        position: relative;
+    }
+    .stepper .circle {
+        border: 3px solid gray;
+        background-color: #fff;
+        border-radius: 100%;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        position: relative;
+    }
+
+    .stepper .circle .circle2 {
+        position: absolute;
+        border: 3px solid gray;
+        background-color: gray;
+        border-radius: 100%;
+        width: 10px;
+        height: 10px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        display: inline-block;
+    }
+
+    .stepper .line {
+        top: 20px;
+        left: 9px;
+        height: 100%;
+        position: absolute;
+        border-left: 3px solid gray;
+    }
+    .content {
+        margin-left: 20px;
+        display: inline-block;
+    }
+    .lozenges {
+        border-radius: 4px;
+        color: #fff;
+        font-size: 12px;
+        padding: 5px 8px 5px 8px;
+        background-color: rgba(131,159,150, .3);
+    }    
 </style>
