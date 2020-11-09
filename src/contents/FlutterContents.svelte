@@ -41,7 +41,7 @@
             category="Mobile Attendance App"
             delay="animate__fast"
             highlights={attendanceHighlights}
-            description="Zahir Attendance adalah aplikasi absensi kehadiran yang dibuat untuk memudahkan karyawan yang sedang bekerja dari rumah. Aplikasi ini dibuat pada bulan maret dalam kurun waktu 10 hari
+            description="Zahir Attendance adalah aplikasi absensi kehadiran yang dibuat untuk memudahkan karyawan yang sedang bekerja onsite ataupun bekerja dari rumah. Aplikasi ini dibuat pada bulan maret dalam kurun waktu 10 hari
             dengan kebutuhan mendesak saat karyawan diwajibkan Work From Home di kala pandemi. Fitur utamanya saat itu adalah karyawan bisa mengisi kehadiran dengan melakukan foto selfie dan mencantumkan lokasi dimana dia berada. 
             User pada aplikasi ini memiliki 2 role, dimana ada admin yang bisa mengoordinir karyawan mulai dari mengundang karyawan masuk ke dalam data perusahaan sampai memeriksa kehadiran dari masing-masing karyawan. Pada aplikasi ini saya bertugas sebagai seorang UI Developer 
             yang mengonversi desain menjadi prototype jadi. Sekarang aplikasi ini sudah dikembangkan oleh tim yang ada dan sudah memiliki fitur face recognition."
