@@ -25,7 +25,6 @@
         <div class="row" style="margin-left: -5px">
             {#each highlights as highlight}
                 <div class="app-highlight mb-2" style="background-image: url('{`../../build/assets/${highlight}`}')">
-                    <!-- <img src={`../../build/assets/${highlight}`} height="50" width="50" alt="app_icon"/> -->
                 </div>
             {/each}
         </div>

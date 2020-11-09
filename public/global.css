@@ -4,7 +4,6 @@ html, body {
 }
 
 body {
-	overflow-x: hidden;
 	color: #394D6F;
 	max-width: 768px;
 	margin-left: auto !important;

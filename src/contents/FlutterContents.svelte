@@ -1,5 +1,6 @@
 <script>
     import ListTile from "./components/ListTile.svelte";
+import PhotoPreview from "./components/PhotoPreview.svelte";
     const tokokuHighlights = [
         "zt-1.jpg",
         "zt-2.jpg",

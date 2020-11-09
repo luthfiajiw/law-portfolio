@@ -1,13 +1,17 @@
 <script>
 	import Content from "./Content.svelte";
+	import PhotoPreview from "./contents/components/PhotoPreview.svelte";
 	import Header from "./Header.svelte";
 	import Nav from "./Nav.svelte";
 	
-	let navActive = 2; 
+	let showModal = true;
+	let navActive = 0; 
 	function handleNav(e) {
 		navActive = e.detail;
 	}
 </script>
+
+<PhotoPreview />
 
 <div class="full-height">
 	<div class="header-background" />
@@ -31,6 +35,7 @@
 	.full-height {
 		min-height: 100vh;
 		overflow-x: hidden;
+		position: relative;
 	}
 	.header-background {
         height: 240px;
