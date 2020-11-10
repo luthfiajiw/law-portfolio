@@ -7,7 +7,7 @@
 
 {#if showModal}
     <div class="backdrop animate__animated animate__fadeIn animate__fast">
-        <div class="photo-preview mx-auto">
+        <div class="photo-preview mx-auto animate__animated animate__fadeIn">
             <div>
                 <div class="close">
                     <button on:click={handleClose}>
@@ -25,7 +25,7 @@
         position: absolute;
         font-size: 20px;
         top: -40px;
-        right: -5px;
+        right: 0;
         color: rgba(131,159,150, .5);
     }
     .close button {
@@ -39,7 +39,8 @@
         height: 100%;
         position: fixed;
 		background: transparent;
-		backdrop-filter: blur(2.5px);
+        -webkit-backdrop-filter: blur(3px);
+		backdrop-filter: blur(3px);
 		z-index: 1072;
     }
     .photo-preview {
@@ -58,7 +59,7 @@
         background-position: center;
         object-fit: scale-down;
     }
-    @media (min-width: 375px) {
+    @media (min-width: 500px) {
         .photo-preview {
             height: 600px;
         }
