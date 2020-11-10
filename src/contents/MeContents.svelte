@@ -30,7 +30,7 @@
                 </p>
                 <div class="text-secondary mb-3">
                     Saya bertugas dalam mengembangkan aplikasi mobile <em>cross-platform</em> berbasis flutter. Tanggung jawab utama saya adalah mengoptimasi fitur yang sudah ada 
-                    dan mengembangkan fitur-fitur baru pada aplikasi Tokoku. Saya juga bertugas mem<em>build</em> dan menyiapkan aplikasi untuk masuk ke tahap pengujian.
+                    dan mengembangkan fitur-fitur baru pada aplikasi Tokoku. Saya juga bertugas melakukan <em>build</em> dan menyiapkan aplikasi untuk masuk ke tahap pengujian.
                 </div>
             </div>
         </div>
@@ -121,16 +121,6 @@
                     </div>
                     <div class="content">
                         <p class="job text-black">Bahasa Jerman</p>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="stepper">
-                        <div class="circle">
-                            <div class="circle2" />
-                        </div>
-                    </div>
-                    <div class="content">
-                        <p class="job text-black">Ilmu Perbankan</p>
                     </div>
                 </div>
                 <div class="step">
