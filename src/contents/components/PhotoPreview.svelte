@@ -1,30 +1,37 @@
 <script>
-    export let showModal = true;
+    export let showModal = false;
+    export let handleClose;
+    export let imgUrl;
 </script>
 
 
 {#if showModal}
-    <div class="backdrop">
-
-        <div class="close mt-3">
-            <button>
-                <i class="far fa-times-circle" />
-            </button>
-        </div>
+    <div class="backdrop animate__animated animate__fadeIn animate__fast">
         <div class="photo-preview mx-auto">
-            <img src="../../build/assets/zt-1.jpg" alt="preview">
+            <div>
+                <div class="close">
+                    <button on:click={handleClose}>
+                        <i class="far fa-times-circle" />
+                    </button>
+                </div>
+                <img src={`../../build/assets/${imgUrl}`} alt="preview">
+            </div>
         </div>
     </div>
 {/if}
 
 <style>
     .close {
+        position: absolute;
         font-size: 20px;
+        top: -40px;
+        right: -5px;
         color: rgba(131,159,150, .5);
     }
     .close button {
         background-color: transparent;
-        border: none;   
+        border: none;
+        text-align: center;
     }
     .backdrop{
         width: 100%;
@@ -37,8 +44,10 @@
     }
     .photo-preview {
         top: 50%;
-        transform: translateY(-50%);
+        right: 50%;
+        transform: translateY(-50%) translateX(50%);
         width: 100%;
+        max-width: 400px;
         height: 450px;
         position: fixed;
     }
@@ -48,5 +57,14 @@
         height: 450px;
         background-position: center;
         object-fit: scale-down;
+    }
+    @media (min-width: 375px) {
+        .photo-preview {
+            height: 600px;
+        }
+
+        .photo-preview img {
+            height: 600px;
+        }
     }
 </style>

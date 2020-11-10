@@ -1,10 +1,16 @@
 <script>
+    import { createEventDispatcher } from "svelte";
     export let title;
     export let category;
     export let iconUrl;
     export let description;
     export let highlights = [];
     export let delay;
+    const dispatch = createEventDispatcher();
+    
+    function handleOpen(highlight) {
+        dispatch('handleOpen', highlight);
+    }
 </script>
 
 <div class={`list-tile mx-3 my-4 animate__animated animate__backInUp ${delay}`}>
@@ -24,8 +30,9 @@
         <p>HIGHLIGHTS</p>
         <div class="row" style="margin-left: -5px">
             {#each highlights as highlight}
-                <div class="app-highlight mb-2" style="background-image: url('{`../../build/assets/${highlight}`}')">
-                </div>
+                <button on:click={() => handleOpen(highlight)}>
+                    <div class="app-highlight mb-2" style="background-image: url('{`../../build/assets/${highlight}`}')" />
+                </button>
             {/each}
         </div>
     </div>
@@ -44,7 +51,12 @@
         width: 50px;
         border-radius: 5px;
     }
-
+    .highlights button {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
     .app-highlight {
         cursor: pointer;
         margin-left: 5px;

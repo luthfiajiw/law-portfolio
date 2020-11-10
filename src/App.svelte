@@ -4,21 +4,30 @@
 	import Header from "./Header.svelte";
 	import Nav from "./Nav.svelte";
 	
-	let showModal = true;
+	let showModal = false;
+	let imgUrl = '';
 	let navActive = 0; 
 	function handleNav(e) {
 		navActive = e.detail;
 	}
+	function handleOpen(highlight) {
+		showModal = true;
+		imgUrl = highlight.detail;
+		console.log(highlight);
+	}
+	function handleClose() {
+		showModal = false;
+	}
 </script>
 
-<PhotoPreview />
+<PhotoPreview showModal={showModal} handleClose={handleClose} imgUrl={imgUrl} />
 
 <div class="full-height">
 	<div class="header-background" />
 	<div class="overlay"></div>
 	<Header />
 	<Nav navActive={navActive} on:handleNav={handleNav}/>
-	<Content navActive={navActive} />
+	<Content navActive={navActive} handleOpen={handleOpen} />
 	<div class="footer mb-4">
 		<div class="row justify-content-between">
 			<div>

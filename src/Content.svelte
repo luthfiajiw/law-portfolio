@@ -4,13 +4,14 @@
     import MeContents from "./contents/MeContents.svelte";
 
     export let navActive;
+    export let handleOpen;
 </script>
 
 <div class="content">
     {#if navActive === 0}
-        <FlutterContents />
+        <FlutterContents handleOpen={handleOpen}/>
     {:else if navActive === 1}
-        <ReactContents />
+        <ReactContents handleOpen={handleOpen} />
     <!-- {:else if navActive === 2}
         <ExpressContents /> -->
     {:else if navActive === 2}

@@ -1,6 +1,7 @@
 <script>
     import ListTile from "./components/ListTile.svelte";
-import PhotoPreview from "./components/PhotoPreview.svelte";
+
+    export let handleOpen;
     const tokokuHighlights = [
         "zt-1.jpg",
         "zt-2.jpg",
@@ -28,6 +29,7 @@ import PhotoPreview from "./components/PhotoPreview.svelte";
             category="ECommerce App"
             delay="animate__faster"
             highlights={tokokuHighlights}
+            on:handleOpen={handleOpen}
             description="Tokoku adalah aplikasi yang 
                 mempermudah dan mempercepat berjualan dimana pengguna bisa membuat toko online 
                 sendiri dalam hitungan menit. Aplikasi ini memiliki fitur-fitur seperti: Analytic pengunjung, Integrasi dengan aplikasi 
@@ -42,6 +44,7 @@ import PhotoPreview from "./components/PhotoPreview.svelte";
             category="Mobile Attendance App"
             delay="animate__fast"
             highlights={attendanceHighlights}
+            on:handleOpen={handleOpen}
             description="Zahir Attendance adalah aplikasi absensi kehadiran yang dibuat untuk memudahkan karyawan yang sedang bekerja onsite ataupun bekerja dari rumah. Aplikasi ini dibuat pada bulan maret dalam kurun waktu 10 hari
             dengan kebutuhan mendesak saat karyawan diwajibkan Work From Home di kala pandemi. Fitur utamanya saat itu adalah karyawan bisa mengisi kehadiran dengan melakukan foto selfie dan mencantumkan lokasi dimana dia berada. 
             User pada aplikasi ini memiliki 2 role, dimana ada admin yang bisa mengoordinir karyawan mulai dari mengundang karyawan masuk ke dalam data perusahaan sampai memeriksa kehadiran dari masing-masing karyawan. Pada aplikasi ini saya bertugas sebagai seorang UI Developer 
