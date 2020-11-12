@@ -11,8 +11,11 @@
                         Frontend Developer
                     </div>
                     <div class="sosmed ml-5">
+                        <a href="https://500px.com/p/luthfiaw_?view=photos" target="_blank" rel="noopener noreferrer" class="text-secondary">
+                            <i class="fab fa-500px"></i>
+                        </a>
                         <a href="https://www.linkedin.com/in/luthfiaw/" target="_blank" rel="noopener noreferrer" class="text-secondary">
-                            <i class="fab fa-linkedin-in mr-2"/>
+                            <i class="fab fa-linkedin-in  mx-2"/>
                         </a>
                         <a href="https://twitter.com/si__law" target="_blank" rel="noopener noreferrer" class="text-secondary">
                             <i class="fab fa-twitter"></i>

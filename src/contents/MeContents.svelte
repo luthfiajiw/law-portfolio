@@ -1,3 +1,9 @@
+<script>
+    let interests = ["Backend Development", "Software Architecture", "Bahasa Jerman", "Manajemen Bank"];
+    let hobbies = ["Joging", "Menulis", "Baca Novel", "Tilawah", "Fotografi", "Dan masih banyak lagi"];
+    let skills = ["Dart", "Javascript", "Typescript", "UI Styling", "Flutter", "React JS", "Next JS", "Express JS"];
+</script>
+
 <div class="me-content mx-3 my-4">
     <div class="welcome mb-5">
         <h6 class="text-black mb-4">HALO !</h6>
@@ -6,10 +12,11 @@
             Ya, karena sebelum menjadi seorang Programmer saya sempat mempelajari berbagai macam keahlian untuk mengetahui dimana <em>passion</em> saya berada.
             Sampai pada akhirnya saya mulai menekuni bidang ini dan hingga sekarang pun saya masih terus mempelajari dunia teknologi yang sangat luas ini.
             <br><br>
-            Selamat melihat-lihat profile ini. Semoga kamu nyaman :)
+            Saya memiliki passion dalam mengembangkan aplikasi berbasis mobile maupun website dari sisi client (frontend). 
+            Seiring berjalannya waktu alhamdulillah ilmu saya semakin bertambah sedikit demi sedikit meskipun masih banyak kekurangan di lain sisi. 
             <br><br>
             Oh iya, website ini masih didesain untuk interface <i>mobile</i> saja. Saya masih mencari inspirasi desain untuk diterapkan pada tampilan desktop.
-            Kalau kamu mau ikut berkontribusi bisa kenalan dengan saya lewat akun sosmed di atas ya, hehe terimakasih.
+            Selamat melihat-lihat profile ini, semoga kamu nyaman :)
         </div>
     </div>
 
@@ -26,7 +33,7 @@
                 <p class="job text-black">Frontend Developer</p>
                 <p class="company text-black">
                     Zahir <br>
-                    <span class="period">Nov 2019 - Sekarang</span>
+                    <span class="period">Nov 2019 - Sekarang <span class="mx-2">•</span> Fulltime</span>
                 </p>
                 <div class="text-secondary mb-3">
                     Saya bertugas dalam mengembangkan aplikasi mobile <em>cross-platform</em> berbasis flutter. Tanggung jawab utama saya adalah mengoptimasi fitur yang sudah ada 
@@ -45,10 +52,10 @@
                 <p class="job text-black">Mentor</p>
                 <p class="company text-black">
                     Pondok IT Jogjakarta <br>
-                    <span class="period">Feb 2019 - Sep 2019</span>
+                    <span class="period">Feb 2019 - Sep 2019 <span class="mx-2">•</span> Fulltime</span>
                 </p>
                 <div class="text-secondary">
-                    Selain mengajar, sebagai mentor React JS pada awal-awal batch frontend diadakan saya bertugas menyusun kurikulum frontend bersama tim mentor React JS yang lainnya.
+                    Selain sharing ilmu, sebagai mentor React JS pada awal-awal batch frontend diadakan saya bertugas menyusun kurikulum frontend bersama tim mentor React JS yang lainnya.
                     Kurikulum tersebut mencakup materi tentang dasar-dasar algoritma pemrograman sampai dengan interaksi/komunikasi antara backend dengan frontend.
                 </div>
             </div>
@@ -93,47 +100,52 @@
         <div class="col-md-6">
             <div class="interests" style="margin-top: 30px">
                 <h6 class="text-black mb-4">MINAT</h6>
-                <div class="step">
-                    <div class="stepper">
-                        <div class="circle">
-                            <div class="circle2" />
+                {#each interests as interest}
+                    <div class="step">
+                        <div class="stepper">
+                            <div class="circle">
+                                <div class="circle2" />
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p class="job text-black">{interest}</p>
                         </div>
                     </div>
-                    <div class="content">
-                        <p class="job text-black">Backend Development</p>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="stepper">
-                        <div class="circle">
-                            <div class="circle2" />
-                        </div>
-                    </div>
-                    <div class="content">
-                        <p class="job text-black">Software Architecture</p>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="stepper">
-                        <div class="circle">
-                            <div class="circle2" />
-                        </div>
-                    </div>
-                    <div class="content">
-                        <p class="job text-black">Bahasa Jerman</p>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="stepper">
-                        <div class="circle">
-                            <div class="circle2" />
-                        </div>
-                    </div>
-                    <div class="content">
-                        <p class="job text-black">Manajemen Bank</p>
-                    </div>
-                </div>
+                {/each}
             </div>
+        </div>
+    </div>
+
+    <div class="row align-items-start">
+        <div class="col-6" style="margin-top: 35px">
+            <h6 class="text-black mb-4">KEAHLIAN</h6>
+            {#each skills as skill}
+                <div class="step">
+                    <div class="stepper">
+                        <div class="circle">
+                            <div class="circle2" />
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="job text-black">{skill}</p>
+                    </div>
+                </div>
+            {/each}
+        </div>
+        <div class="col-6" style="margin-top: 35px">
+            <h6 class="text-black mb-4">HOBI</h6>
+            {#each hobbies as hobby}
+                <div class="step">
+                    <div class="stepper">
+                        <div class="circle">
+                            <div class="circle2" />
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="job text-black">{hobby}</p>
+                    </div>
+                </div>
+            {/each}
         </div>
     </div>
 </div>
@@ -142,7 +154,7 @@
     .me-content {
         margin-top: 2rem;
     }
-    .experience h6, .welcome h6, .languages h6, .interests h6{
+    h6{
         letter-spacing: .2rem;
         font-weight: bold;
     }
