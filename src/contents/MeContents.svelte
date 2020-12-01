@@ -1,7 +1,7 @@
 <script>
     let interests = ["Backend Development", "Software Architecture", "Bahasa Jerman", "Manajemen Bank"];
     let hobbies = ["Joging", "Menulis", "Baca Novel", "Tilawah", "Fotografi", "Dan masih banyak lagi"];
-    let skills = ["Dart", "Javascript", "Typescript", "UI Styling", "Flutter", "React JS", "Next JS", "Express JS"];
+    let skills = ["Dart", "Javascript", "Typescript", "UI Styling", "Flutter", "React JS", "Express JS"];
 </script>
 
 <div class="me-content mx-3 my-4">
