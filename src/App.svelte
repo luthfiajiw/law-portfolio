@@ -6,7 +6,7 @@
 	
 	let showModal = false;
 	let imgUrl = '';
-	let navActive = 2; 
+	let navActive = 3;
 	function handleNav(e) {
 		navActive = e.detail;
 	}

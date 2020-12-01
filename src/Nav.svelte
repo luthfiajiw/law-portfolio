@@ -26,13 +26,13 @@
         >
             React JS
         </button>
-        <!-- <button
-            class="btn-nav mt-2 animate_animated animate__bounceIn exp-btn"
-            class:btn-active={navActive === 2}
-            on:click={() => handleNav(2)}
+        <button
+            class="btn-nav mt-2 mr-2 animate_animated animate__bounceIn exp-btn"
+            class:btn-active={navActive === 3}
+            on:click={() => handleNav(3)}
         >
             Express JS
-        </button> -->
+        </button>
         <button
             class="btn-nav mt-2 animate_animated animate__bounceIn me-btn"
             class:btn-active={navActive === 2}
