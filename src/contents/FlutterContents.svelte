@@ -24,7 +24,7 @@
 <div class="flutter-content">
     <div class="mt-4">
         <ListTile
-            iconUrl="../../build/assets/tokoku_icon.png"
+            iconUrl="../../assets/tokoku_icon.png"
             title="Tokoku"
             category="ECommerce App"
             delay="animate__faster"
@@ -39,7 +39,7 @@
                 jadi masih ada banyak fitur-fitur lain yang akan hadir di Tokoku."
         />
         <ListTile
-            iconUrl="../../build/assets/attendance_icon.png"
+            iconUrl="../../assets/attendance_icon.png"
             title="Zahir Attendance"
             category="Mobile Attendance App"
             delay="animate__fast"

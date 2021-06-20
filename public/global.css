@@ -4,16 +4,21 @@ html, body {
 }
 
 body {
-	color: #394D6F;
-	max-width: 768px;
+	color: #fff;
+	background-color: #0F1624!important;
 	margin-left: auto !important;
 	margin-right: auto !important;
 	box-sizing: border-box;
 	font-family: 'Varela Round', sans-serif !important;
+	font-size: 1.6rem;
 }
 
 .text-black {
 	color: #2f2f2f !important;
+}
+
+.text-white {
+	color: #fff !important;
 }
 
 .text-secondary {
@@ -22,6 +27,18 @@ body {
 
 .text-tertiary {
 	color: #feb162;
+}
+
+.fs-14 {
+	font-size: 14px;
+}
+
+.fs-16 {
+	font-size: 16px;
+}
+
+.fs-18 {
+	font-size: 18px;
 }
 
 button:focus {

@@ -5,7 +5,7 @@ import ListTile from "./components/ListTile.svelte";
 <div class="react-content">
     <div class="mt-4">
         <ListTile
-            iconUrl="../../build/assets/cogs.png"
+            iconUrl="../../assets/cogs.png"
             title="Bankboo API"
             category="Restful API"
             delay=""

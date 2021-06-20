@@ -14,7 +14,7 @@
                         <i class="far fa-times-circle" />
                     </button>
                 </div>
-                <img src={`../../build/assets/${imgUrl}`} alt="preview">
+                <img src={`../../assets/${imgUrl}`} alt="preview">
             </div>
         </div>
     </div>

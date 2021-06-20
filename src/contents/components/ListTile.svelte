@@ -31,7 +31,7 @@
         <div class="row" style="margin-left: -5px">
             {#each highlights as highlight}
                 <button on:click={() => handleOpen(highlight)}>
-                    <div class="app-highlight mb-2" style="background-image: url('{`../../build/assets/${highlight}`}')" />
+                    <div class="app-highlight mb-2" style="background-image: url('{`../../assets/${highlight}`}')" />
                 </button>
             {/each}
         </div>

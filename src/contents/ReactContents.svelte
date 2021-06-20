@@ -12,7 +12,7 @@
 <div class="react-content">
     <div class="mt-4">
         <ListTile
-            iconUrl="../../build/assets/amano_icon.png"
+            iconUrl="../../assets/amano_icon.png"
             title="Amano"
             category="ECommerce Web App"
             delay="animate__faster"
@@ -22,7 +22,7 @@
             transaksi pembelian pun akan tercatat di dalam dashboard aplikasi."
         />
         <ListTile
-            iconUrl="../../build/assets/r-icon.svg"
+            iconUrl="../../assets/r-icon.svg"
             title="Rupiah"
             category="Point Of Sales Web App"
             delay="animate__fast"
@@ -36,7 +36,7 @@
             ini adalah aplikasi pertama kami di tahun 2018."
         />
         <ListTile
-            iconUrl="../../build/assets/univershirt.svg"
+            iconUrl="../../assets/univershirt.svg"
             title="Univershirt"
             category="Management Order Web App"
             handleOpen={handleOpen}

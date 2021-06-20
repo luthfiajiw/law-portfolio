@@ -2,6 +2,7 @@
 	import Content from "./Content.svelte";
 	import PhotoPreview from "./contents/components/PhotoPreview.svelte";
 	import Header from "./Header.svelte";
+	import Hero from "./Hero.svelte";
 	import Nav from "./Nav.svelte";
 	
 	let showModal = false;
@@ -20,7 +21,13 @@
 	}
 </script>
 
-<PhotoPreview showModal={showModal} handleClose={handleClose} imgUrl={imgUrl} />
+<div class="full-height">
+	<Header />
+	<Hero />
+
+</div>
+
+<!-- <PhotoPreview showModal={showModal} handleClose={handleClose} imgUrl={imgUrl} />
 
 <div class="full-height">
 	<div class="header-background" />
@@ -38,38 +45,16 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <style>
 	.full-height {
 		min-height: 100vh;
-		overflow-x: hidden;
-		position: relative;
-	}
-	.header-background {
-        height: 240px;
-        width: 100%;
-		background-image: url('./assets/bg-header.jpg');
-		background-size: cover;
-		background-position: bottom;
-		background-repeat: no-repeat;
-		position: absolute;
-		z-index: -1;
-	}
-	
-	.overlay {
-		height: 240px;
+		max-width: 1280px;
 		width: 100%;
-		position: absolute;
-		background-color: rgba(131,159,150, .5);
-	}
-
-	.footer {
-		font-size: 12px;
-		text-align: center;
-		color: rgba(131,159,150, .5);
-		margin-top: 100px;
-		margin-left: 30px;
-		margin-right: 30px;
+		overflow-x: hidden;
+		background-color: #0F1624;
+		margin-left: auto;
+		margin-right: auto;
 	}
 </style>
