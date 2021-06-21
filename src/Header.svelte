@@ -5,8 +5,11 @@
             <span class="header-name ml-3">Silawfolio</span>
         </div>
     </div>
-    <div class="col-6">
-        <div class="appbar p-4 d-flex justify-content-end">
+    <div class="col-6 d-flex justify-content-end">
+        <div class="profile-photo">
+
+        </div>
+        <!-- <div class="appbar p-4 d-flex justify-content-end">
             <a href="https://500px.com/p/luthfiaw_?view=photos" target="_blank" rel="noopener noreferrer" class="text-white">
                 <i class="fab fa-500px mr-3"></i>
             </a>
@@ -22,7 +25,7 @@
             <a href="https://github.com/luthfiajiw" target="_blank" rel="noopener noreferrer" class="text-white">
                 <i class="fab fa-github ml-3"></i>
             </a>
-        </div>
+        </div> -->
     </div>
 </div>
 
@@ -30,6 +33,16 @@
     i {
 		font-size: 1.6rem;
 	}
+    .profile-photo {
+        background-color: #eee;
+        height: 60px;
+        width: 60px;
+        margin-right: 1.2rem;
+        border-radius: 50%;
+        background-image: url('../../assets/photo-profile.jpg');
+        background-position: center;
+        background-size: cover;
+    }
     .appbar a:hover {
         transition: all 0.5s ease 0s;
         transform: scale(1.2);
@@ -42,6 +55,10 @@
     @media only screen and (max-width: 768px) {
         i {
             font-size: 18px;
+        }
+        .profile-photo {
+            height: 40px;
+            width: 40px;
         }
         .fa-500px, .fa-linkedin-in, .fa-twitter, .fa-dev, .fa-github {
             margin-left: 0px !important;
