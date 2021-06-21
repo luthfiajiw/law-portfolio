@@ -18,7 +18,10 @@ import Divider from "./components/Divider.svelte";
             <p class="card-tech-title mt-2 pt-1">
                 Flutter
             </p>
-            <a href="/" class="mt-4 see-project">Lihat Proyek</a>
+            <p class="card-tech-desc mb-5">
+                Berpengalaman dalam membangun aplikasi mobile dengan flutter.
+            </p>
+            <a href="/" class="see-project">Lihat Proyek</a>
         </div>
         <div class="mx-4"></div>
         <div class="card-tech">
@@ -26,7 +29,10 @@ import Divider from "./components/Divider.svelte";
             <p class="card-tech-title mt-2">
                 React
             </p>
-            <a href="/" class="mt-4 see-project">Lihat Proyek</a>
+            <p class="card-tech-desc mb-5">
+                Memiliki pengalaman dalam membangun aplikasi web berbasis React JS.
+            </p>
+            <a href="/" class="see-project">Lihat Proyek</a>
         </div>
         <div class="mx-4"></div>
         <div class="card-tech">
@@ -34,7 +40,10 @@ import Divider from "./components/Divider.svelte";
             <p class="card-tech-title mt-2">
                 Node JS
             </p>
-            <a href="/" class="mt-4 see-project">Lihat Proyek</a>
+            <p class="card-tech-desc mb-5">
+                Memiliki pengalaman dalam membuat Restful API dengan Express JS.
+            </p>
+            <a href="/" class="see-project">Lihat Proyek</a>
         </div>
     </div>
 </div>
@@ -73,9 +82,12 @@ import Divider from "./components/Divider.svelte";
         letter-spacing: 0.02em;
         color: #FFFFFF;
     }
+    .card-tech-desc {
+        color: rgba(255, 255, 255, 0.5);
+    }
     .see-project {
         font-size: 12px;
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 0.3);
     }
 
     .card-tech:hover {
