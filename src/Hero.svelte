@@ -1,4 +1,4 @@
-<div class="container mt-5">
+<div class="container-md mt-5">
     <h2 class="welcome">
         Hai, Selamat Datang!
     </h2>

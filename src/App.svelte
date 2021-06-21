@@ -1,5 +1,6 @@
 <script>
 	import Content from "./Content.svelte";
+import Divider from "./contents/components/Divider.svelte";
 	import PhotoPreview from "./contents/components/PhotoPreview.svelte";
 	import Header from "./Header.svelte";
 	import Hero from "./Hero.svelte";
@@ -24,7 +25,9 @@
 <div class="full-height">
 	<Header />
 	<Hero />
-
+	<div class="skills container-md">
+		<Divider />
+	</div>
 </div>
 
 <!-- <PhotoPreview showModal={showModal} handleClose={handleClose} imgUrl={imgUrl} />
