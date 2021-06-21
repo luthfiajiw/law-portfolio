@@ -1,33 +1,31 @@
 <script>
-	import Content from "./Content.svelte";
-import Divider from "./contents/components/Divider.svelte";
-	import PhotoPreview from "./contents/components/PhotoPreview.svelte";
-	import Header from "./Header.svelte";
-	import Hero from "./Hero.svelte";
-	import Nav from "./Nav.svelte";
-	
-	let showModal = false;
-	let imgUrl = '';
-	let navActive = 2;
-	function handleNav(e) {
-		navActive = e.detail;
-	}
-	function handleOpen(highlight) {
-		showModal = true;
-		imgUrl = highlight.detail;
-		console.log(highlight);
-	}
-	function handleClose() {
-		showModal = false;
-	}
+import Content from "./Content.svelte";
+import PhotoPreview from "./contents/components/PhotoPreview.svelte";
+import TechsContent from "./contents/TechsContent.svelte";
+import Header from "./Header.svelte";
+import Hero from "./Hero.svelte";
+import Nav from "./Nav.svelte";
+
+let showModal = false;
+let imgUrl = '';
+let navActive = 2;
+function handleNav(e) {
+	navActive = e.detail;
+}
+function handleOpen(highlight) {
+	showModal = true;
+	imgUrl = highlight.detail;
+	console.log(highlight);
+}
+function handleClose() {
+	showModal = false;
+}
 </script>
 
 <div class="full-height">
 	<Header />
 	<Hero />
-	<div class="skills container-md">
-		<Divider />
-	</div>
+	<TechsContent />
 </div>
 
 <!-- <PhotoPreview showModal={showModal} handleClose={handleClose} imgUrl={imgUrl} />
