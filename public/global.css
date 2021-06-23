@@ -1,11 +1,11 @@
 html, body {
 	position: relative;
-	height: 100%;
+	/* height: 100%; */
 }
 
 body {
 	color: #fff;
-	background-color: #0F1624!important;
+	background-color: #0f1624 !important;
 	margin-left: auto !important;
 	margin-right: auto !important;
 	box-sizing: border-box;

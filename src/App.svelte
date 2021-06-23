@@ -1,6 +1,7 @@
 <script>
 import Content from "./Content.svelte";
 import PhotoPreview from "./contents/components/PhotoPreview.svelte";
+import ProjectContents from "./contents/ProjectContents.svelte";
 import TechsContent from "./contents/TechsContent.svelte";
 import Header from "./Header.svelte";
 import Hero from "./Hero.svelte";
@@ -25,6 +26,7 @@ function handleClose() {
 <div class="full-height">
 	<Header />
 	<Hero />
+	<ProjectContents />
 	<TechsContent />
 </div>
 
@@ -54,7 +56,10 @@ function handleClose() {
 		max-width: 1280px;
 		width: 100%;
 		overflow-x: hidden;
-		background-color: #0F1624;
+		overflow-y: hidden;
+		background-color: transparent;
+		/* background: rgb(73,40,108); */
+		/* background: radial-gradient(circle at top right, rgba(15,22,36,1) 75%, rgba(73,40,108,1) 100%); */
 		margin-left: auto;
 		margin-right: auto;
 	}

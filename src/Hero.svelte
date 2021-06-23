@@ -2,8 +2,8 @@
     <h2 class="welcome">
         Hai, Selamat Datang!
     </h2>
-    <p class="hi-from-me">
-        Selamat datang di profile saya yang sangat sederhana ini. Salam kenal, saya adalah seorang frontend developer yang memiliki passion dalam mengembangkan aplikasi berbasis mobile maupun website.
+    <p class="hi-from-me mb-5">
+        Halo! Salam kenal saya Luthfi, saya seorang frontend developer yang memiliki passion dalam mengembangkan aplikasi berbasis mobile maupun website.
     </p>
 </div>
 

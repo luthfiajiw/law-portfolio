@@ -4,13 +4,13 @@ import Divider from "./components/Divider.svelte";
 
 </script>
 
-<div class="techs container-md my-4">
-    <div class="mb-5 pt-5">
+<div class="techs container-md mt-4 mb-5">
+    <div class="pt-5">
         <Divider />
     </div>
     <h3 class="pt-3">Teknologi</h3>
     <p class="tech-desc">
-        Saya sudah mengerjakan beberapa proyek dengan berbagai macam teknologi dalam dunia frontend hingga backend.
+        Saya memiliki pengalaman menggunakan berbagai macam teknologi dalam dunia frontend hingga backend.
     </p>
     <div class="row card-row">
         <div class="card-tech">
@@ -38,7 +38,7 @@ import Divider from "./components/Divider.svelte";
         <div class="card-tech">
             <i class="fab fa-node-js card-tech-ic"></i>
             <p class="card-tech-title mt-2">
-                Node JS
+                Restful API
             </p>
             <p class="card-tech-desc mb-5">
                 Memiliki pengalaman dalam membuat Restful API dengan Express JS.
@@ -87,10 +87,11 @@ import Divider from "./components/Divider.svelte";
     }
     .see-project {
         font-size: 12px;
-        color: rgba(255, 255, 255, 0.3);
+        color: rgba(255, 255, 255, 0.8);
     }
 
     .card-tech:hover {
+        cursor: pointer;
         transform: scale(1.2);
         transition: all 0.5s ease 0s;
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
