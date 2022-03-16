@@ -28,7 +28,7 @@ import Divider from "./components/Divider.svelte";
            description="Restful API ini digunakan pada aplikasi pelayanan bank sampah secara mobile yang saya develop pribadi." />
         <div class="space"></div>
         <div class="more-projects">
-            <span>+3</span>
+            <span>+5</span>
         </div>
     </div>
 </div>

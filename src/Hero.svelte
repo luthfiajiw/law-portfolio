@@ -3,7 +3,7 @@
         Hai, Selamat Datang!
     </h2>
     <p class="hi-from-me mb-5">
-        Halo! Salam kenal saya Luthfi, saya seorang frontend developer yang memiliki passion dalam mengembangkan aplikasi berbasis mobile maupun website.
+        Salam kenal saya Luthfi Aji Wicaksono, frontend developer yang memiliki passion dalam mengembangkan aplikasi berbasis mobile dan website.
     </p>
 </div>
 

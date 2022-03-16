@@ -3,6 +3,7 @@ import Content from "./Content.svelte";
 import PhotoPreview from "./contents/components/PhotoPreview.svelte";
 import ProjectContents from "./contents/ProjectContents.svelte";
 import TechsContent from "./contents/TechsContent.svelte";
+import ExpContents from "./contents/ExpContents.svelte";
 import Header from "./Header.svelte";
 import Hero from "./Hero.svelte";
 import Nav from "./Nav.svelte";
@@ -28,6 +29,7 @@ function handleClose() {
 	<Hero />
 	<ProjectContents />
 	<TechsContent />
+	<ExpContents />
 </div>
 
 <!-- <PhotoPreview showModal={showModal} handleClose={handleClose} imgUrl={imgUrl} />
