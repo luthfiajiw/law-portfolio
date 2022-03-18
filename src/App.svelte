@@ -30,11 +30,21 @@ function handleClose() {
 	<ProjectContents />
 	<TechsContent />
 	<ExpContents />
+	<div class="footer container-md my-4 px-4 pt-5">
+		<div class="row justify-content-between">
+			<div style="color: rgba(255, 255, 255, 0.5);">
+				Dibuat dengan <i class="fas fa-heart"></i> & <i class="fas fa-mug-hot"></i>
+			</div>
+			<div style="color: rgba(255, 255, 255, 0.5);">
+				<i class="fas fa-copyright"></i> 2022
+			</div>
+		</div>
+	</div>
 </div>
 
-<!-- <PhotoPreview showModal={showModal} handleClose={handleClose} imgUrl={imgUrl} />
+<!-- <PhotoPreview showModal={showModal} handleClose={handleClose} imgUrl={imgUrl} /> -->
 
-<div class="full-height">
+<!-- <div class="full-height">
 	<div class="header-background" />
 	<div class="overlay"></div>
 	<Header />

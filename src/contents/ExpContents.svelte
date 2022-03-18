@@ -4,11 +4,11 @@ import Divider from "./components/Divider.svelte";
 
 </script>
 
-<div class="exp container-md mt-4 mb-5">
+<div class="exp container-md mt-4 mb-5 pb-4">
   <div class="pt-5">
     <Divider />
   </div>
-  <h3 class="pt-3">Karir</h3>
+  <h3 class="pt-3">Timeline</h3>
   <p class="exp-desc mb-4">
     Berikut adalah perjalanan karir saya hingga saat ini. Mulai dari menjadi mentor dan membantu menyusun kurikulum hingga menjadi frontend developer.
   </p>
@@ -88,16 +88,17 @@ import Divider from "./components/Divider.svelte";
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    margin-bottom: 20px;
   }
   .stepper {
     position: relative;
   }
   .stepper .circle {
-    border: 3px solid #6c757d;
+    border: 7px solid #6c757d;
     background-color: #0f1624;
     border-radius: 100%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     display: inline-block;
     position: relative;
   }
@@ -117,14 +118,26 @@ import Divider from "./components/Divider.svelte";
     display: inline-block;
   }
   .stepper .line {
-    top: 20px;
-    left: 9px;
+    top: 24px;
+    left: 13px;
     height: 100%;
     position: absolute;
-    border-left: 3px solid #6c757d;
+    border-left: 6px solid #6c757d;
   }
   .content {
     margin-left: 20px;
     display: inline-block;
   }
+
+  @media only screen and (max-width: 768px) {
+        h3 {
+            font-size: 32px;
+            padding-top: 0px;
+            margin-bottom: 18px;
+        }
+        .exp-desc {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
 </style>
