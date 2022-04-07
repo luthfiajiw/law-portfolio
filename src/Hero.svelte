@@ -3,7 +3,7 @@
         Hai, Selamat Datang!
     </h2>
     <p class="hi-from-me mb-5">
-        Salam kenal saya Luthfi Aji Wicaksono, frontend developer yang memiliki passion dalam mengembangkan aplikasi berbasis mobile dan website.
+        Saya Luthfi Aji Wicaksono, fullstack frontend developer yang memiliki passion dalam mengembangkan aplikasi berbasis mobile dan website menggunakan React JS dan Flutter.
     </p>
 </div>
 

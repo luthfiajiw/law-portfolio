@@ -18,9 +18,9 @@ import Divider from "./components/Divider.svelte";
            description="Zahir Attendance adalah aplikasi absensi kehadiran yang dibuat untuk memudahkan karyawan yang sedang bekerja onsite ataupun bekerja dari rumah." />
         <div class="space"></div>
         <Card
-           imgPath="../../assets/amana-logo.svg"
-           title="Amana"
-           description="Amana merupakan aplikasi berbasis web untuk para pebisnis online yang bisa membantu bisnis menjadi jauh lebih efektif dan efisien." />
+           imgPath="../../assets/zo_logo.png"
+           title="Zahir Online App"
+           description="Zahir Online adalah aplikasi pencatatan keuangan dan bisnis yang terintegrasi dan menghasilkan laporan keuangan secara cepat dan tepat." />
         <div class="space"></div>
         <Card
            imgPath="../../assets/api.png"
@@ -28,7 +28,7 @@ import Divider from "./components/Divider.svelte";
            description="Restful API ini digunakan pada aplikasi pelayanan bank sampah secara mobile yang saya develop pribadi." />
         <div class="space"></div>
         <div class="more-projects">
-            <span>+5</span>
+            <span>+7</span>
         </div>
     </div>
 </div>

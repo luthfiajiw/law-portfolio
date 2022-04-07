@@ -21,7 +21,7 @@ import Divider from "./components/Divider.svelte";
             <p class="card-tech-desc mb-5">
                 Berpengalaman dalam membangun aplikasi mobile dengan flutter.
             </p>
-            <a href="/" class="see-project">Lihat Proyek</a>
+            <!-- <a href="/" class="see-project">Lihat Proyek</a> -->
         </div>
         <div class="mx-4"></div>
         <div class="card-tech">
@@ -32,7 +32,7 @@ import Divider from "./components/Divider.svelte";
             <p class="card-tech-desc mb-5">
                 Memiliki pengalaman dalam membangun aplikasi web berbasis React JS.
             </p>
-            <a href="/" class="see-project">Lihat Proyek</a>
+            <!-- <a href="/" class="see-project">Lihat Proyek</a> -->
         </div>
         <div class="mx-4"></div>
         <div class="card-tech">
@@ -43,7 +43,7 @@ import Divider from "./components/Divider.svelte";
             <p class="card-tech-desc mb-5">
                 Memiliki pengalaman dalam membuat Restful API dengan Express JS.
             </p>
-            <a href="/" class="see-project">Lihat Proyek</a>
+            <!-- <a href="/" class="see-project">Lihat Proyek</a> -->
         </div>
     </div>
 </div>
