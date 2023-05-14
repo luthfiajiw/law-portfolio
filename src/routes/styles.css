@@ -1,0 +1,126 @@
+html, body {
+	position: relative;
+	/* height: 100%; */
+}
+
+body {
+	color: #fff;
+	background-color: #0f1624 !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	box-sizing: border-box;
+	font-family: 'Varela Round', sans-serif !important;
+}
+
+.full-height {
+	min-height: 100vh;
+	max-width: 1280px;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-color: transparent;
+	/* background: rgb(73,40,108); */
+	/* background: radial-gradient(circle at top right, rgba(15,22,36,1) 75%, rgba(73,40,108,1) 100%); */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-black {
+	color: #2f2f2f !important;
+}
+
+.text-white {
+	color: #fff !important;
+}
+
+.text-secondary {
+	color: #aeaeae !important;
+}
+
+.text-tertiary {
+	color: #feb162;
+}
+
+.fs-14 {
+	font-size: 14px;
+}
+
+.fs-16 {
+	font-size: 16px;
+}
+
+.fs-18 {
+	font-size: 18px;
+}
+
+.project-image {
+	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+	mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.project-icon {
+	display: none;
+}
+
+button:focus {
+	outline:0 !important;
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+@media only screen and (max-width: 768px) {
+	.project-image {
+		display: none;
+	}
+	.project-icon {
+		display: block;
+	}
+}
