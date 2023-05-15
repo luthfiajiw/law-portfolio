@@ -1,6 +1,7 @@
 <script>
   import Divider from "../components/Divider.svelte";
-  import flutterIcon from "$lib/project_imgs/flutter-icon.svg";
+  import flutterLogo from "$lib/project_imgs/logo-flutter.svg";
+  import androidLogo from "$lib/project_imgs/logo-android.svg";
 </script>
 
 <div class="techs container-md mt-4 mb-5">
@@ -13,7 +14,7 @@
   </p>
   <div class="row mt-3">
     <div class="card-tech">
-      <img src={flutterIcon} alt="icon" height="25">
+      <img src={flutterLogo} alt="icon" height="25">
       <p class="card-tech-title mt-2 pt-1">
         Flutter
       </p>
@@ -31,7 +32,7 @@
       <p class="card-tech-desc mb-5">
         Memiliki pengalaman dalam membangun aplikasi web berbasis React JS.
       </p>
-      <a href="/" class="see-project">Lihat Proyek</a>
+      <a href="/react" class="see-project">Lihat Proyek</a>
     </div>
     <div class="mx-4"></div>
     <div class="card-tech">
@@ -42,18 +43,18 @@
       <p class="card-tech-desc mb-5">
         Memiliki pengalaman dalam membuat Restful API dengan Express JS.
       </p>
-      <a href="/" class="see-project">Lihat Proyek</a>
+      <a href="/rest-api" class="see-project">Lihat Proyek</a>
     </div>
     <div class="mx-4"></div>
     <div class="card-tech mt-3">
-      <i class="fa-brands fa-android card-tech-ic"></i>
+      <img src={androidLogo} alt="icon" height="26">
       <p class="card-tech-title mt-2">
         Android Kotlin
       </p>
       <p class="card-tech-desc mb-5">
         Memiliki pengalaman dalam membuat aplikasi android native dengan Kotlin.
       </p>
-      <a href="/" class="see-project">Lihat Proyek</a>
+      <a href="/android" class="see-project">Lihat Proyek</a>
     </div>
   </div>
 </div>

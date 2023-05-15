@@ -1,6 +1,6 @@
 <script>
 	import Experiences from './Experiences.svelte';
-import Hero from './Hero.svelte';
+	import Hero from './Hero.svelte';
 	import Projects from './Projects.svelte';
 	import Techs from './Techs.svelte';
 </script>
