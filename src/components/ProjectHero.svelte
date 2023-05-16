@@ -4,7 +4,7 @@
   export let image: string
 </script>
 
-<div class="d-flex justify-content-between align-items-center">
+<div class="hero d-flex justify-content-between align-items-center">
   <div>
     <div class="d-flex align-items-center">
       <img
@@ -31,6 +31,9 @@
 </div>
 
 <style>
+  .hero {
+    margin-bottom: 12rem;
+  }
   h2 {
     font-size: 56px;
     font-weight: 800;
@@ -50,6 +53,9 @@
   }
 
   @media only screen and (max-width: 768px) {
+    .hero {
+      margin-bottom: 0rem;
+    }
     h2 {
         font-size: 32px;
         padding-top: 0px;

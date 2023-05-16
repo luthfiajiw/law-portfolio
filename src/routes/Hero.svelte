@@ -1,4 +1,4 @@
-<div class="container-md mt-5">
+<div class="hero container-md mt-5">
   <h2 class="welcome">
     Hai, Selamat Datang!
   </h2>
@@ -8,6 +8,9 @@
 </div>
 
 <style>
+  .hero {
+    margin-bottom: 11rem;
+  }
   h2 {
     font-size: 56px;
     font-weight: 800;
@@ -27,6 +30,9 @@
   }
 
   @media only screen and (max-width: 768px) {
+    .hero {
+      margin-bottom: 0rem;
+    }
     h2 {
         font-size: 32px;
         padding-top: 0px;
