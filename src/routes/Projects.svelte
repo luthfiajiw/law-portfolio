@@ -1,9 +1,9 @@
 <script>
   import Card from "../components/Card.svelte";
   import Divider from "../components/Divider.svelte";
-  import attendance_icon from "$lib/project_imgs/attendance_icon.png";
-  import zo_logo from "$lib/project_imgs/zo_logo.png";
-  import api from "$lib/project_imgs/api.png";
+  import attendanceLogo from "$lib/project_imgs/attendance-logo.png";
+  import zoLogo from "$lib/project_imgs/zo_logo.png";
+  import bankbooLogo from "$lib/project_imgs/bankboo-logo.png";
 </script>
 
 <div class="projects container-md mt-4 mb-4">
@@ -16,22 +16,22 @@
   </p>
   <div class="d-flex flex-wrap card-row">
     <Card
-      imgPath={attendance_icon}
+      imgPath={attendanceLogo}
       title="Zahir Attendance"
       description="Zahir Attendance adalah aplikasi absensi kehadiran yang dibuat untuk memudahkan karyawan yang sedang bekerja onsite ataupun bekerja dari rumah." />
     <div class="space"></div>
     <Card
-      imgPath={zo_logo}
-      title="Zahir Online App"
+      imgPath={zoLogo}
+      title="Zahir Apps"
       description="Zahir Online adalah aplikasi pencatatan keuangan dan bisnis yang terintegrasi dan menghasilkan laporan keuangan secara cepat dan tepat." />
     <div class="space"></div>
     <Card
-      imgPath={api}
+      imgPath={bankbooLogo}
       title="Bankboo API"
       description="Restful API ini digunakan pada aplikasi pelayanan bank sampah secara mobile yang saya develop pribadi." />
     <div class="space"></div>
     <div class="more-projects">
-      <span>+7</span>
+      <span>+5</span>
     </div>
   </div>
 </div>
