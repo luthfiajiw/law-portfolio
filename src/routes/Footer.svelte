@@ -8,3 +8,9 @@
     </div>
   </div>
 </div>
+
+<style>
+  .svelte-logo {
+    opacity: 80%;
+  }
+</style>

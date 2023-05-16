@@ -45,7 +45,7 @@
   <ProjectSection
     name="Zahir Attendance"
     description="Zahir Attendance adalah aplikasi absensi kehadiran yang dibuat untuk memudahkan karyawan yang sedang bekerja onsite ataupun bekerja dari rumah. 
-    Fitur utamanya saat itu adalah karyawan bisa mengisi kehadiran dengan melakukan foto selfie dan mencantumkan lokasi dimana dia berada. Nama aplikasi ini sudah berubah menjadi Zahir HR"
+    Fitur utamanya saat itu adalah karyawan bisa mengisi kehadiran dengan melakukan foto selfie dan mencantumkan lokasi dimana dia berada. Nama aplikasi ini sudah berubah menjadi Zahir HR."
     logo={attendancelogo}
     showcase={attendanceShowcase}
   />

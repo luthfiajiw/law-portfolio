@@ -5,6 +5,7 @@
   export let showcase: string
   export let name: string
   export let description: string
+  export let imgHeight = 400
 </script>
 
 <div class="d-flex justify-content-between mt-5">
@@ -28,7 +29,7 @@
     src={showcase}
     alt="Preview ZO"
     class="mt-5 ml-5 project-showcase"
-    height="400"
+    height={imgHeight}
   />
 </div>
 
