@@ -7,10 +7,29 @@
     <Divider />
   </div>
   <h3 class="pt-3">Timeline</h3>
-  <p class="exp-desc mb-4">
+  <p class="exp-desc mb-5">
     Berikut adalah perjalanan karir saya hingga saat ini. Mulai dari menjadi mentor dan membantu menyusun kurikulum hingga menjadi frontend developer.
   </p>
   <div class="experience mb-5">
+    <div class="step">
+      <div class="stepper">
+        <div class="circle">
+          <div class="circle2" />
+        </div>
+        <div class="line"></div>
+      </div>
+      <div class="content">
+        <p class="job">Mobile Flutter Developer</p>
+        <p class="company">
+          Firstasia Consultants <br>
+          <span class="period">Feb 2023 - Present <span class="mx-2">•</span> Fulltime</span>
+        </p>
+        <div class="text-secondary mb-3">
+          Saya adalah mobile developer pertama di sini, tugas saya membantu perusahaan ini untuk mengembangkan 
+          produk mereka di sisi aplikasi mobile dengan memastikan arsitektur yang kokoh.
+        </div>
+      </div>
+    </div>
     <div class="step">
       <div class="stepper">
         <div class="circle">

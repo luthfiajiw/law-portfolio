@@ -1,15 +1,16 @@
 <div class="hero container-md mt-5">
   <h2 class="welcome">
-    Hai, Selamat Datang!
+    Hi, Selamat Datang!
   </h2>
   <p class="hi-from-me mb-5">
-    Saya Luthfi Aji Wicaksono, fullstack frontend developer yang memiliki passion dalam mengembangkan aplikasi berbasis mobile dan website menggunakan React JS dan Flutter.
+    I am Luthfi Aji Wicaksono, an experienced Mobile App Developer with a demonstrated work history in the computer software industry.
+    Have Skills in Mobile Applications, Web Applications, Frontend Development, and Flutter Development.
   </p>
 </div>
 
 <style>
   .hero {
-    margin-bottom: 11rem;
+    margin-bottom: 10rem;
   }
   h2 {
     font-size: 56px;
