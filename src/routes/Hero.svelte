@@ -1,8 +1,12 @@
-<script>
+<script lang="ts">
   import { browser } from '$app/environment';
 	// @ts-ignore
 	import { LottiePlayer } from '@lottiefiles/svelte-lottie-player';
+
+  let screenSize: number
 </script>
+
+<svelte:window bind:innerWidth={screenSize} />
 
 <div class="position-relative">
   {#if browser}
@@ -13,6 +17,7 @@
         loop="{true}"
         renderer="svg"
         background="transparent"
+        width={screenSize > 768 ? 1300 : 500}
       />
     </div>
   {/if}
