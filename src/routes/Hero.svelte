@@ -1,16 +1,17 @@
 <div class="hero container-md mt-5">
   <h2 class="welcome">
-    Hi, Selamat Datang!
+    Selamat Datang <br>
+    To My Personal Portfolio
   </h2>
   <p class="hi-from-me mb-5">
-    I am Luthfi Aji Wicaksono, an experienced Mobile App Developer with a demonstrated work history in the computer software industry.
-    Have Skills in Mobile Applications, Web Applications, Frontend Development, and Flutter Development.
+    I am Luthfi Aji Wicaksono, an experienced Mobile App Developer with expertise
+    in Mobile Applications, Web Applications, Frontend Development, and Flutter Development.
   </p>
 </div>
 
 <style>
   .hero {
-    margin-bottom: 10rem;
+    margin-bottom: 11rem;
   }
   h2 {
     font-size: 56px;

@@ -24,7 +24,7 @@
           Firstasia Consultants <br>
           <span class="period">Feb 2023 - Present <span class="mx-2">•</span> Fulltime</span>
         </p>
-        <div class="text-secondary mb-3">
+        <div class="job-desc text-secondary mb-3">
           Saya adalah mobile developer pertama di sini, tugas saya membantu perusahaan ini untuk mengembangkan 
           produk mereka di sisi aplikasi mobile dengan memastikan arsitektur yang kokoh.
         </div>
@@ -43,7 +43,7 @@
           Zahir <br>
           <span class="period">Nov 2019 - Feb 2023 <span class="mx-2">•</span> Fulltime</span>
         </p>
-        <div class="text-secondary mb-3">
+        <div class="job-desc text-secondary mb-3">
           Saya bertugas dalam mengembangkan aplikasi mobile <em>cross-platform</em> berbasis flutter dan juga aplikasi web berbasis next js. Tanggung jawab utama saya adalah mengoptimasi fitur yang sudah ada 
           dan mengembangkan fitur-fitur baru. Saya juga bertugas melakukan <em>build</em> dan menyiapkan aplikasi untuk masuk ke tahap pengujian.
         </div>
@@ -62,7 +62,7 @@
           Pondok IT <br>
           <span class="period">Feb 2019 - Sep 2019 <span class="mx-2">•</span> Fulltime</span>
         </p>
-        <div class="text-secondary">
+        <div class="job-desc text-secondary">
           Selain berbagi ilmu, sebagai mentor React JS pada awal-awal batch frontend diadakan saya bertugas menyusun kurikulum frontend bersama tim mentor React JS yang lainnya.
           Kurikulum tersebut mencakup materi tentang dasar-dasar algoritma pemrograman sampai dengan interaksi/komunikasi backend dengan frontend sampai menjadi aplikasi utuh.
         </div>
@@ -100,6 +100,9 @@
   .period {
     font-size: 14px;
     color: rgba(255, 255, 255, .7);
+  }
+  .job-desc {
+    max-width: 768px;
   }
   .step {
     display: flex;

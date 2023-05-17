@@ -8,7 +8,7 @@
   <div class="pt-5">
     <Divider />
   </div>
-  <h3 class="pt-3">Teknologi</h3>
+  <h3 class="pt-3">Technologies</h3>
   <p class="tech-desc">
     Saya memiliki pengalaman menggunakan berbagai macam teknologi dalam dunia frontend hingga backend.
   </p>

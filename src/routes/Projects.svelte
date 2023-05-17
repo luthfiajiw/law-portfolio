@@ -10,7 +10,7 @@
   <div class="pt-5">
     <Divider />
   </div>
-  <h3 class="pt-3">Proyek</h3>
+  <h3 class="pt-3">Projects</h3>
   <p class="project-desc">
     Berikut beberapa proyek yang sudah pernah saya kerjakan dengan berbagai macam teknologi dalam dunia frontend hingga backend.
   </p>
