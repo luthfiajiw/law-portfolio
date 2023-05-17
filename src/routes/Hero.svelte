@@ -17,7 +17,7 @@
         loop="{true}"
         renderer="svg"
         background="transparent"
-        width={screenSize > 768 ? 1300 : 500}
+        width={screenSize > 768 ? 1250 : 500}
       />
     </div>
   {/if}

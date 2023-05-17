@@ -22,6 +22,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@lottiefiles/svelte-lottie-player": "^0.3.0"
+		"@lottiefiles/svelte-lottie-player": "^0.3.0",
+		"@sveltejs/adapter-vercel": "^2.4.3"
 	}
 }
