@@ -1,7 +1,7 @@
 <script lang="ts">
   import Divider from "./Divider.svelte";
 
-  export let logo: string
+  export let logo = ""
   export let showcase: string
   export let name: string
   export let description: string
@@ -12,13 +12,15 @@
   <div>
     <Divider />
     <div class="d-flex align-items-center">
-      <img
-        src={logo}
-        alt="icon"
-        class="project-icon mr-2"
-        height="25"
-        style="margin-bottom: 4px;"
-      />
+      {#if logo !== ""}
+        <img
+          src={logo}
+          alt="icon"
+          class="project-icon mr-2"
+          height="25"
+          style="margin-bottom: 4px;"
+        />
+      {/if}
       <h3 class="pt-3">{name}</h3>
     </div>
     <p class="desc mb-4">
@@ -47,7 +49,7 @@
 
   .desc {
     max-width: 800px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 40px;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.5);

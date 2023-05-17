@@ -22,7 +22,7 @@
         <p class="job">Frontend Developer</p>
         <p class="company">
           Zahir <br>
-          <span class="period">Nov 2019 - Sekarang <span class="mx-2">•</span> Fulltime</span>
+          <span class="period">Nov 2019 - Feb 2023 <span class="mx-2">•</span> Fulltime</span>
         </p>
         <div class="text-secondary mb-3">
           Saya bertugas dalam mengembangkan aplikasi mobile <em>cross-platform</em> berbasis flutter dan juga aplikasi web berbasis next js. Tanggung jawab utama saya adalah mengoptimasi fitur yang sudah ada 
@@ -40,7 +40,7 @@
       <div class="content">
         <p class="job">Mentor</p>
         <p class="company">
-          Pondok IT Jogjakarta <br>
+          Pondok IT <br>
           <span class="period">Feb 2019 - Sep 2019 <span class="mx-2">•</span> Fulltime</span>
         </p>
         <div class="text-secondary">
@@ -74,7 +74,7 @@
     font-size: 24px;
   }
   .company {
-    margin-bottom: 0px;
+    margin-bottom: 1rem;
     color: #fff;
     font-size: 16px;
   }
