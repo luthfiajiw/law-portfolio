@@ -1,41 +1,78 @@
-<script lang="ts">
+<script>
+  import { fly } from 'svelte/transition';
   import { browser } from '$app/environment';
 	// @ts-ignore
 	import { LottiePlayer } from '@lottiefiles/svelte-lottie-player';
+  import viewport from '../actions/useViewportAction';
 
-  let screenWidth: number
-</script>
+  let screenWidth = 0
+  $: visible = false
+
+  /**
+     * @param {boolean} val
+     */
+  function handleVisibility(val) {
+    visible = val
+  }
+</script> 
 
 <svelte:window bind:innerWidth={screenWidth} />
 
-<div class="position-relative">
-  {#if browser}
-    <div class="position-absolute">
+<div
+  use:viewport
+  on:enterViewport={() => handleVisibility(true)}
+  class="position-relative"
+>
+  {#if browser && visible}
+    <div class="position-absolute" transition:fly="{{ y: 100, duration: 1000 }}">
       <LottiePlayer
         src="https://assets10.lottiefiles.com/packages/lf20_3nptdrnv.json"
         autoplay="{true}"
         loop="{true}"
         renderer="svg"
         background="transparent"
-        width={screenWidth > 768 ? 1250 : 500}
+        width={screenWidth > 768 ? screenWidth : 500}
       />
     </div>
   {/if}
-  <div class="hero container-md mt-5">
-    <h2 class="welcome">
-      Selamat Datang <br>
-      To Luthfi Aji's Portfolio
-    </h2>
-    <p class="hi-from-me mb-5">
-      I am Luthfi Aji Wicaksono, an experienced Mobile App Developer with expertise
-      in Mobile Applications, Web Applications, Frontend Development, and Flutter Development.
-    </p>
-  </div>
+  {#if visible}
+    <div class="hero container-md mt-5 pt-3 position-relative">
+      <h2 class="welcome" transition:fly="{{ y: 100, duration: 1000 }}">
+        Selamat Datang <br>
+        To Luthfi Aji's Portfolio
+      </h2>
+      <p class="hi-from-me mb-5" transition:fly="{{ y: 100, duration: 1500 }}">
+        I am Luthfi Aji Wicaksono, an experienced Mobile App Developer with expertise
+        in Mobile Applications, Web Applications, Frontend Development, and Flutter Development.
+      </p>
+      <a 
+        transition:fly="{{ y: 100, duration: 2000 }}"
+        href="https://resume.showwcase.com/lthfiaw.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Open Resume
+      </a>
+    </div>
+  {/if}
 </div>
 
 <style>
   .hero {
-    margin-bottom: 11rem;
+    margin-bottom: 20rem;
+  }
+  a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px;
+    background: linear-gradient(270deg, #13ADC7 0%, #945DD6 100%);
+    border-radius: 50px;
+    position: absolute;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.16)
+  }
+  a:hover {
+    transition: all 0.3s ease 0s;
+		transform: scale(1.05);
   }
   h2 {
     font-size: 56px;
@@ -57,7 +94,18 @@
 
   @media only screen and (max-width: 768px) {
     .hero {
-      margin-bottom: 0rem;
+      margin-bottom: 7rem;
+    }
+    a {
+      padding: 16px;
+      font-size: 14px;
+      position: absolute;
+      left: 0; 
+      right: 0; 
+      margin-left: auto; 
+      margin-right: auto; 
+      width: 130px;
+      text-align: center;
     }
     h2 {
         font-size: 32px;

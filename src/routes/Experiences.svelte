@@ -1,74 +1,94 @@
 <script>
+  import { fly } from 'svelte/transition';
   import Divider from "../components/Divider.svelte";
+  import viewport from "../actions/useViewportAction";
+
+  $: visible = false
+
+  /**
+     * @param {boolean} val
+     */
+  function handleVisibility(val) {
+    visible = val
+  }
 </script>
 
-<div class="exp container-md mt-4 mb-5 pb-4">
-  <div class="pt-5">
-    <Divider />
-  </div>
-  <h3 class="pt-3">Timeline</h3>
-  <p class="exp-desc mb-5">
-    Here is my career journey so far. Starting from being a mentor and helping to develop curricula to becoming a frontend developer.
-  </p>
-  <div class="experience mb-5">
-    <div class="step">
-      <div class="stepper">
-        <div class="circle">
-          <div class="circle2" />
+<div
+  use:viewport
+  on:enterViewport={() => handleVisibility(true)}
+  on:exitViewport={() => handleVisibility(false)}
+  class="exp container-md mt-4 mb-5 pb-4"
+>
+  {#if visible}
+    <div class="pt-5" transition:fly="{{ y: 100, duration: 1000 }}">
+      <Divider />
+    </div>
+    <h3 class="pt-3" transition:fly="{{ y: 100, duration: 1500 }}">
+      Timeline
+    </h3>
+    <p class="exp-desc mb-5" transition:fly="{{ y: 100, duration: 2000 }}">
+      Here is my career journey so far. Starting from being a mentor and helping to develop curricula to becoming a frontend developer.
+    </p>
+    <div class="experience mb-5">
+      <div class="step" transition:fly="{{ y: 100, duration: 2500 }}">
+        <div class="stepper">
+          <div class="circle">
+            <div class="circle2" />
+          </div>
+          <div class="line"></div>
         </div>
-        <div class="line"></div>
+        <div class="content">
+          <p class="job">Mobile Flutter Developer</p>
+          <p class="company">
+            Firstasia Consultants <br>
+            <span class="period">Feb 2023 - Present <span class="mx-2">•</span> Fulltime</span>
+          </p>
+          <div class="job-desc text-secondary mb-3">
+            I am the first mobile developer here, my job is to help this company develop
+            their product on the mobile app side by ensuring the architecture is well built.
+          </div>
+        </div>
       </div>
-      <div class="content">
-        <p class="job">Mobile Flutter Developer</p>
-        <p class="company">
-          Firstasia Consultants <br>
-          <span class="period">Feb 2023 - Present <span class="mx-2">•</span> Fulltime</span>
-        </p>
-        <div class="job-desc text-secondary mb-3">
-          I am the first mobile developer here, my job is to help this company develop
-          their product on the mobile app side by ensuring the architecture is well built.
+      <div class="step" transition:fly="{{ y: 100, duration: 3000 }}">
+        <div class="stepper">
+          <div class="circle">
+            <div class="circle2" />
+          </div>
+          <div class="line"></div>
+        </div>
+        <div class="content">
+          <p class="job">Frontend Developer</p>
+          <p class="company">
+            Zahir <br>
+            <span class="period">Nov 2019 - Feb 2023 <span class="mx-2">•</span> Fulltime</span>
+          </p>
+          <div class="job-desc text-secondary mb-3">
+            I am in charge of developing a flutter mobile application as well as a web application based on react js. 
+            My main responsibility is to optimize existing features and develop new features. I'm also in charge of doing research when necessary to apply new things to the apps.
+          </div>
+        </div>
+      </div>
+      <div class="step" transition:fly="{{ y: 100, duration: 3500 }}">
+        <div class="stepper">
+          <div class="circle">
+            <div class="circle2" />
+          </div>
+          <div class="line"></div>
+        </div>
+        <div class="content">
+          <p class="job">Mentor</p>
+          <p class="company">
+            Pondok IT <br>
+            <span class="period">Feb 2019 - Sep 2019 <span class="mx-2">•</span> Fulltime</span>
+          </p>
+          <div class="job-desc text-secondary">
+            I was in charge of compiling the frontend curriculum with the rest of the React JS mentor team. 
+            The curriculum includes material on the basics of programming algorithms to the interaction/communication of the backend with the frontend until it becomes a complete application.
+          </div>
         </div>
       </div>
     </div>
-    <div class="step">
-      <div class="stepper">
-        <div class="circle">
-          <div class="circle2" />
-        </div>
-        <div class="line"></div>
-      </div>
-      <div class="content">
-        <p class="job">Frontend Developer</p>
-        <p class="company">
-          Zahir <br>
-          <span class="period">Nov 2019 - Feb 2023 <span class="mx-2">•</span> Fulltime</span>
-        </p>
-        <div class="job-desc text-secondary mb-3">
-          I am in charge of developing a flutter mobile application as well as a web application based on react js. 
-          My main responsibility is to optimize existing features and develop new features. I'm also in charge of doing research when necessary to apply new things to the apps.
-        </div>
-      </div>
-    </div>
-    <div class="step">
-      <div class="stepper">
-        <div class="circle">
-          <div class="circle2" />
-        </div>
-        <div class="line"></div>
-      </div>
-      <div class="content">
-        <p class="job">Mentor</p>
-        <p class="company">
-          Pondok IT <br>
-          <span class="period">Feb 2019 - Sep 2019 <span class="mx-2">•</span> Fulltime</span>
-        </p>
-        <div class="job-desc text-secondary">
-          I was in charge of compiling the frontend curriculum with the rest of the React JS mentor team. 
-          The curriculum includes material on the basics of programming algorithms to the interaction/communication of the backend with the frontend until it becomes a complete application.
-        </div>
-      </div>
-    </div>
-  </div>
+  {/if}
 </div>
 
 <style>
