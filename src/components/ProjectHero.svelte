@@ -28,7 +28,6 @@
 <div
   use:viewport
   on:enterViewport={() => handleVisibility(true)}
-  on:exitViewport={() => handleVisibility(false)}
   class="hero d-flex justify-content-between align-items-center"
 >
   {#if visible}

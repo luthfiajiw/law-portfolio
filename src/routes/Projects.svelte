@@ -21,7 +21,6 @@
 <div
   use:viewport
   on:enterViewport={() => handleVisibility(true)}
-  on:exitViewport={() => handleVisibility(false)}
   class="projects container-md mt-4 mb-4"
 >
   {#if visible}
