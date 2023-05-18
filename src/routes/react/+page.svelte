@@ -26,6 +26,8 @@
     logo={rupiahLogo}
     showcase={rupiahShowcase}
     imgHeight={275}
+    github="https://github.com/luthfiajiw/rupiah-id"
+    browser="https://rupiah-id.netlify.app/"
   />
   <div class="space"></div>
   <ProjectSection
@@ -35,6 +37,7 @@
     logo={posxLogo}
     showcase={posxShowcase}
     imgHeight={275}
+    browser="https://pos.zahironline.com"
   />
   <div class="py-4"></div>
 </section>

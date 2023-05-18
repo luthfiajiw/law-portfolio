@@ -25,6 +25,7 @@
     logo={bankbooGreen}
     showcase={bankbooGreen}
     imgHeight={275}
+    github="https://github.com/luthfiajiw/bankboo-api"
   />
   <div class="py-4"></div>
 </section>

@@ -1,5 +1,3 @@
-<script>
-</script>
 
 <section class="header row align-items-center">
 	<div class="col-6">
@@ -29,7 +27,7 @@
 		font-size: 1.6rem;
 	}
 	.appbar a:hover {
-		transition: all 0.5s ease 0s;
+		transition: all 0.3s ease 0s;
 		transform: scale(1.2);
 	}
 	.header-name {

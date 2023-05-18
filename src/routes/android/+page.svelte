@@ -23,6 +23,8 @@
     description ="Aplikasi ini merupakan submission akhir dari kursus Belajar Fundamental Aplikasi Android di Dicoding yang berfokus pada networking dan local database.
     Fitur di aplikasi ini antara lain Search User, Detail User, Add User to Favorite."
     showcase={githubShowcase}
+    github="https://github.com/luthfiajiw/submission-github-3-dicoding"
+    certificate="https://www.dicoding.com/certificates/NVP71NL7GPR0"
   />
   <div class="py-3"></div>
   <ProjectSection
@@ -30,6 +32,8 @@
     description="Aplikasi ini merupakan submission akhir dari kursus Belajar Pengembangan Aplikasi Android Intermediate di Dicoding. 
     Kursus ini berfokus pada Implementing Maps, Post a Story, Paging, and Testing."
     showcase={storyShowcase}
+    github="https://github.com/luthfiajiw/submission-story-app"
+    certificate="https://www.dicoding.com/certificates/NVP79ONDWZR0"
   />
   <div class="py-4"></div>
 </section>

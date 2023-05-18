@@ -29,6 +29,8 @@
     ini digunakan di sub aplikasi lainnya."
     logo={zoLogo}
     showcase={zoShowcase}
+    googlePlay="https://play.google.com/store/apps/details?id=com.zahironline&hl=en"
+    appStore="https://apps.apple.com/id/app/zahir-apps/id1504813555?l=id"
   />
   <div class="py-3"></div>
   <ProjectSection
@@ -48,6 +50,8 @@
     Fitur utamanya saat itu adalah karyawan bisa mengisi kehadiran dengan melakukan foto selfie dan mencantumkan lokasi dimana dia berada. Nama aplikasi ini sudah berubah menjadi Zahir HR."
     logo={attendancelogo}
     showcase={attendanceShowcase}
+    googlePlay="https://play.google.com/store/apps/details?id=com.zahir.attendance&hl=en"
+    appStore="https://apps.apple.com/id/app/zahir-hr/id1504841303?l=id"
   />
   <div class="py-4"></div>
 </section>
