@@ -68,7 +68,7 @@
         <a href={appStore}
           target="_blank"
           rel="noopener noreferrer"
-          transition:fly="{{ x: -100, duration: 3000 }}"
+          transition:fly="{{ x: -100, duration: 1000 }}"
         >
           <i class="fa-brands fa-app-store-ios"/>
         </a>  
@@ -77,7 +77,7 @@
         <a href={googlePlay}
           target="_blank"
           rel="noopener noreferrer"
-          transition:fly="{{ x: -100, duration: 3500 }}"
+          transition:fly="{{ x: -100, duration: 1500 }}"
         >
           <i class="fa-brands fa-google-play"/>
         </a>   
@@ -86,7 +86,7 @@
         <a href={github}
           target="_blank"
           rel="noopener noreferrer"
-          transition:fly="{{ x: -100, duration: 4000 }}"
+          transition:fly="{{ x: -100, duration: 2000 }}"
         >
           <i class="fa-brands fa-github"/>
         </a> 
@@ -95,7 +95,7 @@
         <a href={browser}
           target="_blank"
           rel="noopener noreferrer"
-          transition:fly="{{ x: -100, duration: 4500 }}"
+          transition:fly="{{ x: -100, duration: 2500 }}"
         >
           <i class="fa-solid fa-globe"></i>
         </a>
@@ -104,7 +104,7 @@
         <a href={certificate}
           target="_blank"
           rel="noopener noreferrer"
-          transition:fly="{{ x: -100, duration: 5000 }}"
+          transition:fly="{{ x: -100, duration: 3000 }}"
         >
           <i class="fa-solid fa-certificate"></i>
         </a>
