@@ -31,7 +31,6 @@
 <section
   use:viewport
   on:enterViewport={() => handleVisibility(true)}
-  on:exitViewport={() => handleVisibility(false)}
 >
   {#if visible}
     <div class="d-flex justify-content-between mt-5">
