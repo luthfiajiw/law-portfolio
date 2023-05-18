@@ -1,33 +1,62 @@
-<script lang="ts">
-  export let name: string
-  export let description: string
-  export let image: string
+<script>
+  import { fly } from 'svelte/transition';
+  import viewport from "../actions/useViewportAction";
+
+  /**
+   * @type {string}
+   */
+  export let name
+  /**
+   * @type {string}
+   */
+  export let description
+  /**
+   * @type {string}
+   */
+  export let image
+
+  $: visible = false
+
+  /**
+     * @param {boolean} val
+     */
+  function handleVisibility(val) {
+    visible = val
+  }
 </script>
 
-<div class="hero d-flex justify-content-between align-items-center">
-  <div>
-    <div class="d-flex align-items-center">
-      <img
-        src={image}
-        alt="icon"
-        class="project-icon mr-3"
-        height="25"
-        style="margin-bottom: 18px;"
-      />
-      <h2>
-        {name}
-      </h2>
-    </div>      
-    <p class="description mb-5">
-      {description}
-    </p>
-  </div>
-  <img
-    src={image}
-    alt="icon"
-    class="project-image mt-5"
-    height="250"
-  />
+<div
+  use:viewport
+  on:enterViewport={() => handleVisibility(true)}
+  on:exitViewport={() => handleVisibility(false)}
+  class="hero d-flex justify-content-between align-items-center"
+>
+  {#if visible}
+    <div>
+      <div class="d-flex align-items-center" transition:fly="{{ y: 100, duration: 1000 }}">
+        <img
+          src={image}
+          alt="icon"
+          class="project-icon mr-3"
+          height="25"
+          style="margin-bottom: 18px;"
+        />
+        <h2>
+          {name}
+        </h2>
+      </div>      
+      <p class="description mb-5" transition:fly="{{ y: 100, duration: 1500 }}">
+        {description}
+      </p>
+    </div>
+    <img
+      src={image}
+      alt="icon"
+      class="project-image mt-5"
+      height="250"
+      transition:fly="{{ x: 100, duration: 2000 }}"
+    />
+  {/if}
 </div>
 
 <style>

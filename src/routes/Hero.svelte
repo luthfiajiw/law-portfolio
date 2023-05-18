@@ -1,5 +1,5 @@
 <script>
-  import { fly } from 'svelte/transition';
+  import { fly, fade } from 'svelte/transition';
   import { browser } from '$app/environment';
 	// @ts-ignore
 	import { LottiePlayer } from '@lottiefiles/svelte-lottie-player';
@@ -24,7 +24,7 @@
   class="position-relative"
 >
   {#if browser && visible}
-    <div class="position-absolute" transition:fly="{{ y: 100, duration: 1000 }}">
+    <div class="position-absolute" transition:fade="{{ duration: 2000 }}">
       <LottiePlayer
         src="https://assets10.lottiefiles.com/packages/lf20_3nptdrnv.json"
         autoplay="{true}"
@@ -62,7 +62,7 @@
     margin-bottom: 20rem;
   }
   a {
-    color: #FFFFFF;
+    color: #FFFFFF!important;
     text-decoration: none;
     padding: 20px;
     background: linear-gradient(270deg, #13ADC7 0%, #945DD6 100%);
