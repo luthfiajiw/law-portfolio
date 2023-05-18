@@ -8,7 +8,7 @@
   </div>
   <h3 class="pt-3">Timeline</h3>
   <p class="exp-desc mb-5">
-    Berikut adalah perjalanan karir saya hingga saat ini. Mulai dari menjadi mentor dan membantu menyusun kurikulum hingga menjadi frontend developer.
+    Here is my career journey so far. Starting from being a mentor and helping to develop curricula to becoming a frontend developer.
   </p>
   <div class="experience mb-5">
     <div class="step">
@@ -25,8 +25,8 @@
           <span class="period">Feb 2023 - Present <span class="mx-2">•</span> Fulltime</span>
         </p>
         <div class="job-desc text-secondary mb-3">
-          Saya adalah mobile developer pertama di sini, tugas saya membantu perusahaan ini untuk mengembangkan 
-          produk mereka di sisi aplikasi mobile dengan memastikan arsitektur yang kokoh.
+          I am the first mobile developer here, my job is to help this company develop
+          their product on the mobile app side by ensuring the architecture is well built.
         </div>
       </div>
     </div>
@@ -44,8 +44,8 @@
           <span class="period">Nov 2019 - Feb 2023 <span class="mx-2">•</span> Fulltime</span>
         </p>
         <div class="job-desc text-secondary mb-3">
-          Saya bertugas dalam mengembangkan aplikasi mobile <em>cross-platform</em> berbasis flutter dan juga aplikasi web berbasis next js. Tanggung jawab utama saya adalah mengoptimasi fitur yang sudah ada 
-          dan mengembangkan fitur-fitur baru. Saya juga bertugas melakukan <em>build</em> dan menyiapkan aplikasi untuk masuk ke tahap pengujian.
+          I am in charge of developing a flutter mobile application as well as a web application based on react js. 
+          My main responsibility is to optimize existing features and develop new features. I'm also in charge of doing research when necessary to apply new things to the apps.
         </div>
       </div>
     </div>
@@ -63,8 +63,8 @@
           <span class="period">Feb 2019 - Sep 2019 <span class="mx-2">•</span> Fulltime</span>
         </p>
         <div class="job-desc text-secondary">
-          Selain berbagi ilmu, sebagai mentor React JS pada awal-awal batch frontend diadakan saya bertugas menyusun kurikulum frontend bersama tim mentor React JS yang lainnya.
-          Kurikulum tersebut mencakup materi tentang dasar-dasar algoritma pemrograman sampai dengan interaksi/komunikasi backend dengan frontend sampai menjadi aplikasi utuh.
+          I was in charge of compiling the frontend curriculum with the rest of the React JS mentor team. 
+          The curriculum includes material on the basics of programming algorithms to the interaction/communication of the backend with the frontend until it becomes a complete application.
         </div>
       </div>
     </div>

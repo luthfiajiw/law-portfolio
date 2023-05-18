@@ -16,12 +16,12 @@
   <ProjectHero
     name="Android Kotlin"
     image={androidLogo}
-    description="Berikut adalah proyek-proyek Android Native yang sudah pernah saya kerjakan beserta dengan deskripsi di masing-masing proyek."
+    description="Below are the Android Native projects I have worked on along with a description of each one."
   />
   <ProjectSection
     name="Github Users Clone"
-    description ="Aplikasi ini merupakan submission akhir dari kursus Belajar Fundamental Aplikasi Android di Dicoding yang berfokus pada networking dan local database.
-    Fitur di aplikasi ini antara lain Search User, Detail User, Add User to Favorite."
+    description ="This app is the final submission of the Learning Android Application Fundamentals course at Dicoding which focuses on networking and local databases. 
+    Features in this application include Search Users, User Details, Add User to Favorite."
     showcase={githubShowcase}
     github="https://github.com/luthfiajiw/submission-github-3-dicoding"
     certificate="https://www.dicoding.com/certificates/NVP71NL7GPR0"
@@ -29,8 +29,8 @@
   <div class="py-3"></div>
   <ProjectSection
     name="StoryApp"
-    description="Aplikasi ini merupakan submission akhir dari kursus Belajar Pengembangan Aplikasi Android Intermediate di Dicoding. 
-    Kursus ini berfokus pada Implementing Maps, Post a Story, Paging, and Testing."
+    description="This app is the final submission of the Learn Intermediate Android Application Development course at Dicoding.
+    This course focuses on Implementing Maps, Post a Story, Paging, and Testing."
     showcase={storyShowcase}
     github="https://github.com/luthfiajiw/submission-story-app"
     certificate="https://www.dicoding.com/certificates/NVP79ONDWZR0"

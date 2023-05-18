@@ -18,11 +18,11 @@
   <ProjectHero
     name="React"
     image={reactLogo}
-    description="Berikut adalah proyek-proyek React yang sudah pernah saya kerjakan beserta dengan deskripsi di masing-masing proyek."
+    description="Below are the React projects I have worked on along with a description of each one."
   />
   <ProjectSection
     name="Rupiah"
-    description="Rupiah adalah aplikasi React pertama saya, aplikasi ini bertujuan untuk membantu mencatat transaksi penjualan dan pembelian yang terjadi."
+    description="Rupiah is my first React application, this application aims to help record sales and purchase transactions that occur."
     logo={rupiahLogo}
     showcase={rupiahShowcase}
     imgHeight={275}
@@ -32,8 +32,8 @@
   <div class="space"></div>
   <ProjectSection
     name="POSX Web"
-    description="POSX Web ini adalah bentuk aplikasi website dari POSX Mobile. Pada versi web ini hanya difokuskan untuk proses transaksi,
-    serta sudah mendukung alur offline dan online."
+    description="POSX Web is a form of website application from POSX Mobile. In this web version it is only focused on transaction processing,
+    and already supports offline and online flows."
     logo={posxLogo}
     showcase={posxShowcase}
     imgHeight={275}

@@ -12,23 +12,22 @@
   </div>
   <h3 class="pt-3">Projects</h3>
   <p class="project-desc">
-    Berikut beberapa proyek yang sudah pernah saya kerjakan dengan berbagai macam teknologi dalam dunia frontend hingga backend.
-  </p>
+    Here are some projects that I have worked on with various technologies from the frontend to the backend.
   <div class="d-flex flex-wrap card-row">
     <Card
       imgPath={attendanceLogo}
       title="Zahir Attendance"
-      description="Zahir Attendance adalah aplikasi absensi kehadiran yang dibuat untuk memudahkan karyawan yang sedang bekerja onsite ataupun bekerja dari rumah." />
+      description="Zahir Attendance is an attendance application created to make it easier for employees who are working onsite or working from home." />
     <div class="space"></div>
     <Card
       imgPath={zoLogo}
       title="Zahir Apps"
-      description="Zahir Online adalah aplikasi pencatatan keuangan dan bisnis yang terintegrasi dan menghasilkan laporan keuangan secara cepat dan tepat." />
+      description="Zahir Online is an integrated financial and business recording application that produces financial reports quickly and accurately." />
     <div class="space"></div>
     <Card
       imgPath={bankbooLogo}
       title="Bankboo API"
-      description="Restful API ini digunakan pada aplikasi pelayanan bank sampah secara mobile yang saya develop pribadi." />
+      description="This Restful API is used in a mobile waste bank service application that I personally developed." />
     <div class="space"></div>
     <div class="more-projects">
       <span>+5</span>

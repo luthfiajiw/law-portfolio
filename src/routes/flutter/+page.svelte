@@ -20,13 +20,12 @@
   <ProjectHero
     name="Flutter"
     image={flutterLogo}
-    description="Berikut adalah proyek-proyek Flutter yang sudah pernah saya kerjakan beserta dengan deskripsi di masing-masing proyek."
+    description="Below are the Flutter projects I have worked on along with a description of each one."
   />
   <ProjectSection
     name="Zahir Apps"
-    description="Zahir Online adalah aplikasi pencatatan keuangan dan bisnis yang terintegrasi dan menghasilkan laporan keuangan secara cepat dan tepat.
-    Aplikasi ini merupakan super apps yang menjadi induk dari pecahan-pecahan aplikasi serupa, dimana beberapa module yang ada di dalam Zahir Apps
-    ini digunakan di sub aplikasi lainnya."
+    description="Zahir Online is an integrated financial and business recording application that produces financial reports quickly and accurately. 
+    This application is a super application that is the parent of similar application fragments, where several modules in Zahir Apps are used in other sub-applications."
     logo={zoLogo}
     showcase={zoShowcase}
     googlePlay="https://play.google.com/store/apps/details?id=com.zahironline&hl=en"
@@ -35,19 +34,19 @@
   <div class="py-3"></div>
   <ProjectSection
     name="Tokoku"
-    description="Tokoku adalah aplikasi yang 
-    mempermudah dan mempercepat berjualan dimana pengguna bisa membuat toko online 
-    sendiri dalam hitungan menit. Fitur-fiturnya yang ada yaitu Analytic pengunjung, Integrasi dengan aplikasi 
-    laporan keuangan Zahir Simply, Kostumisasi domain, Pembayaran melalui beberapa merchant, Pengiriman
-    dengan Gosend & offline."
+    description="Tokoku is an application that
+    simplify and speed up selling where users can create online stores
+    yourself in minutes. Its existing features are visitor analytics, integration with applications
+    Zahir Simply financial reports, Domain customization, Payment through several merchants, Delivery
+    with Gosend & offline."
     logo={tokokulogo}
     showcase={tokokuShowcase}
   />
   <div class="py-3"></div>
   <ProjectSection
     name="Zahir Attendance"
-    description="Zahir Attendance adalah aplikasi absensi kehadiran yang dibuat untuk memudahkan karyawan yang sedang bekerja onsite ataupun bekerja dari rumah. 
-    Fitur utamanya saat itu adalah karyawan bisa mengisi kehadiran dengan melakukan foto selfie dan mencantumkan lokasi dimana dia berada. Nama aplikasi ini sudah berubah menjadi Zahir HR."
+    description="Zahir Attendance is an attendance application created to make it easier for employees who are working onsite or working from home.
+    The main feature at that time was that employees could fill attendance by taking selfies and including the location where they were. The name of this application has changed to Zahir HR."
     logo={attendancelogo}
     showcase={attendanceShowcase}
     googlePlay="https://play.google.com/store/apps/details?id=com.zahir.attendance&hl=en"

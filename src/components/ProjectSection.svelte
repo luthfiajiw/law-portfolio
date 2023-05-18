@@ -45,16 +45,16 @@
   </div>
 
   <div class={`d-flex align-items-center ${screenWidth > 768 ? "mb-5" : "mt-3"}`}>
+    {#if appStore !== ""}
+      <a href={appStore} target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-app-store-ios"/>
+      </a>  
+    {/if} 
     {#if googlePlay !== ""}
       <a href={googlePlay} target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-google-play"/>
       </a>   
     {/if} 
-    {#if appStore !== ""}
-      <a href={appStore} target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-app-store-ios"/>
-      </a>  
-    {/if}  
     {#if github !== ""}
       <a href={github} target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-github"/>

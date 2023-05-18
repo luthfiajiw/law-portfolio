@@ -10,7 +10,7 @@
   </div>
   <h3 class="pt-3">Technologies</h3>
   <p class="tech-desc">
-    Saya memiliki pengalaman menggunakan berbagai macam teknologi dalam dunia frontend hingga backend.
+    I have experience using various technologies from the frontend to the backend.
   </p>
   <div class="row mt-3">
     <div class="card-tech">
@@ -19,9 +19,9 @@
         Flutter
       </p>
       <p class="card-tech-desc mb-5">
-        Berpengalaman dalam membangun aplikasi mobile dengan flutter.
+        Experienced in building mobile applications with flutter.
       </p>
-      <a href="/flutter" class="see-project">Lihat Proyek</a>
+      <a href="/flutter" class="see-project">See Projects</a>
     </div>
     <div class="mx-4"></div>
     <div class="card-tech">
@@ -30,31 +30,32 @@
         React
       </p>
       <p class="card-tech-desc mb-5">
-        Memiliki pengalaman dalam membangun aplikasi web berbasis React JS.
+        Have experience in building web applications based on React JS
       </p>
-      <a href="/react" class="see-project">Lihat Proyek</a>
+      <a href="/react" class="see-project">See Projects</a>
     </div>
     <div class="mx-4"></div>
+    
     <div class="card-tech">
-      <i class="fa-brands fa-node-js card-tech-ic"></i>
-      <p class="card-tech-title mt-2">
-        Restful API
-      </p>
-      <p class="card-tech-desc mb-5">
-        Memiliki pengalaman dalam membuat Restful API dengan Express JS.
-      </p>
-      <a href="/rest-api" class="see-project">Lihat Proyek</a>
-    </div>
-    <div class="mx-4"></div>
-    <div class="card-tech mt-3">
       <img src={androidLogo} alt="icon" height="26">
       <p class="card-tech-title mt-2">
         Android Kotlin
       </p>
       <p class="card-tech-desc mb-5">
-        Memiliki pengalaman dalam membuat aplikasi android native dengan Kotlin.
+        Have experience in creating native android applications with Kotlin.
       </p>
-      <a href="/android" class="see-project">Lihat Proyek</a>
+      <a href="/android" class="see-project">See Projects</a>
+    </div>
+    <div class="mx-4"></div>
+    <div class="card-tech mt-3">
+      <i class="fa-brands fa-node-js card-tech-ic"></i>
+      <p class="card-tech-title mt-2">
+        Restful API
+      </p>
+      <p class="card-tech-desc mb-5">
+        Have experience in creating Restful API with Node JS.
+      </p>
+      <a href="/rest-api" class="see-project">See Projects</a>
     </div>
   </div>
 </div>

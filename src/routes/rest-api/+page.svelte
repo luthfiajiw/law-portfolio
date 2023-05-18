@@ -16,12 +16,12 @@
   <ProjectHero
     name="Restful API"
     image={nodejsLogo}
-    description="Berikut adalah proyek-proyek Restful API yang sudah pernah saya kerjakan beserta dengan deskripsi di masing-masing proyek."
+    description="Below are the Rest API projects I have worked on along with a description of each one."
   />
   <ProjectSection
     name="Bankboo"
-    description="Aplikasi ini merupakan aplikasi pelayanan bank sampah secara mobile. User yang sudah terdaftar sebagai nasabah suatu bank
-    bisa melakukan transaksi setor sampah yang nantinya dikonversi menjadi saldo uang, setelah itu bisa melakukan transaksi penarikan saldo."
+    description="This application is a mobile waste bank service application. Users who are already registered as customers of a bank 
+    can make waste deposit transactions which will later be converted into cash balances, after which they can make balance withdrawal transactions."
     logo={bankbooGreen}
     showcase={bankbooGreen}
     imgHeight={275}
