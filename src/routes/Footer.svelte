@@ -15,6 +15,7 @@
 <div
   use:viewport
   on:enterViewport={() => handleVisibility(true)}
+  on:exitViewport={() => handleVisibility(false)}
   class="footer mt-4 mb-2 px-4 pt-5"
 >
   {#if visible}
