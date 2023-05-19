@@ -1,8 +1,8 @@
 <script>
   import { fly, fade } from 'svelte/transition';
   import { browser } from '$app/environment';
-	// @ts-ignore
-	import { LottiePlayer } from '@lottiefiles/svelte-lottie-player';
+  // @ts-ignore
+  import { LottiePlayer } from '@lottiefiles/svelte-lottie-player';
   import viewport from '../actions/useViewportAction';
 
   let screenWidth = 0
@@ -47,7 +47,7 @@
       </p>
       <a 
         transition:fly="{{ y: 100, duration: 2000 }}"
-        href="https://resume.showwcase.com/lthfiaw.pdf"
+        href="https://resume.showwcase.com/lthfiaw/2747.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
