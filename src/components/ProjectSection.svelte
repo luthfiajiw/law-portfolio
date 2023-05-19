@@ -13,10 +13,10 @@
   export let github = ""
   export let browser = ""
   export let certificate = ""
-  /**
-     * @type {() => void}
+   /**
+     * @type {any}
      */
-   export let onOpenPreviews
+    export let onOpenPreviews = undefined
   let screenWidth = 0
 
   $: visible = false
@@ -118,12 +118,14 @@
           <i class="fa-solid fa-certificate"></i>
         </a>
       {/if}
-      <button
-        class="preview"
-        on:click={onOpenPreviews}
-      >
-        See Previews
-      </button>
+      {#if onOpenPreviews}
+        <button
+          class="preview"
+          on:click={onOpenPreviews}
+        >
+          See Previews
+        </button>
+      {/if}
     </div>
   {/if}
 </section>

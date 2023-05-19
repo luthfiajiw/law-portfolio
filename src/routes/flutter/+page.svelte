@@ -1,5 +1,5 @@
 <script>
-  import {isOpen, selectedImg} from "../../stores"
+  import { isOpen, selectedImg, images } from "../../stores"
   import flutterLogo from "$lib/project_imgs/logo-flutter.svg";
   import ProjectHero from '../../components/ProjectHero.svelte';
   import ProjectSection from "../../components/ProjectSection.svelte";
@@ -10,13 +10,35 @@
   import tokokulogo from "$lib/project_imgs/tokoku-logo.png"
   import attendanceShowcase from "$lib/project_imgs/attendance-showcase.png"
   import attendancelogo from "$lib/project_imgs/attendance-logo.png"
+  
+  import zo1 from "$lib/project_imgs/zo-1.png"
+  import zo2 from "$lib/project_imgs/zo-2.png"
+  import zo3 from "$lib/project_imgs/zo-3.png"
+  import zo4 from "$lib/project_imgs/zo-4.png"
+  import zo5 from "$lib/project_imgs/zo-5.png"
+
+  import za1 from "$lib/project_imgs/za-1.jpg"
+  import za2 from "$lib/project_imgs/za-2.jpg"
+  import za3 from "$lib/project_imgs/za-3.jpg"
+  import za4 from "$lib/project_imgs/za-4.jpg"
+  import za5 from "$lib/project_imgs/za-5.jpg"
+
+  import zt1 from "$lib/project_imgs/zt-1.jpg"
+  import zt2 from "$lib/project_imgs/zt-2.jpg"
+  import zt3 from "$lib/project_imgs/zt-3.jpg"
+  import zt4 from "$lib/project_imgs/zt-4.jpg"
+  import zt5 from "$lib/project_imgs/zt-5.jpg"
+  import zt6 from "$lib/project_imgs/zt-6.jpg"
+  import zt7 from "$lib/project_imgs/zt-7.jpg"
+  import zt8 from "$lib/project_imgs/zt-8.jpg"
 
   /**
-     * @param {string} image
+     * @param {string[]} previews
      */
-  function handlePreview(image) {
+  function handlePreview(previews) {
     isOpen.set(true)
-    selectedImg.set(image)
+    selectedImg.set(previews[0])
+    images.set(previews)
   }
 </script>
 
@@ -39,7 +61,7 @@
     showcase={zoShowcase}
     googlePlay="https://play.google.com/store/apps/details?id=com.zahironline&hl=en"
     appStore="https://apps.apple.com/id/app/zahir-apps/id1504813555?l=id"
-    onOpenPreviews={() => handlePreview(zoShowcase)}
+    onOpenPreviews={() => handlePreview([zo1, zo2, zo3, zo4, zo5])}
   />
   <div class="py-3"></div>
   <ProjectSection
@@ -51,7 +73,7 @@
     with Gosend & offline."
     logo={tokokulogo}
     showcase={tokokuShowcase}
-    onOpenPreviews={() => handlePreview(tokokuShowcase)}
+    onOpenPreviews={() => handlePreview([zt1, zt2, zt3, zt4, zt5, zt6, zt7, zt8])}
   />
   <div class="py-3"></div>
   <ProjectSection
@@ -62,7 +84,7 @@
     showcase={attendanceShowcase}
     googlePlay="https://play.google.com/store/apps/details?id=com.zahir.attendance&hl=en"
     appStore="https://apps.apple.com/id/app/zahir-hr/id1504841303?l=id"
-    onOpenPreviews={() => handlePreview(attendanceShowcase)}
+    onOpenPreviews={() => handlePreview([za1, za2, za3, za4, za5])}
   />
   <div class="py-4"></div>
 </section>
