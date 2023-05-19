@@ -13,6 +13,10 @@
   export let github = ""
   export let browser = ""
   export let certificate = ""
+  /**
+     * @type {() => void}
+     */
+   export let onOpenPreviews
   let screenWidth = 0
 
   $: visible = false
@@ -67,6 +71,7 @@
       {#if appStore !== ""}
         <a href={appStore}
           target="_blank"
+          class="link"
           rel="noopener noreferrer"
           transition:fly="{{ x: -100, duration: 500 }}"
         >
@@ -76,6 +81,7 @@
       {#if googlePlay !== ""}
         <a href={googlePlay}
           target="_blank"
+          class="link"
           rel="noopener noreferrer"
           transition:fly="{{ x: -100, duration: 600 }}"
         >
@@ -85,6 +91,7 @@
       {#if github !== ""}
         <a href={github}
           target="_blank"
+          class="link"
           rel="noopener noreferrer"
           transition:fly="{{ x: -100, duration: 700 }}"
         >
@@ -94,6 +101,7 @@
       {#if browser !== ""}
         <a href={browser}
           target="_blank"
+          class="link"
           rel="noopener noreferrer"
           transition:fly="{{ x: -100, duration: 800 }}"
         >
@@ -103,15 +111,19 @@
       {#if certificate !== ""}
         <a href={certificate}
           target="_blank"
+          class="link"
           rel="noopener noreferrer"
           transition:fly="{{ x: -100, duration: 900 }}"
         >
           <i class="fa-solid fa-certificate"></i>
         </a>
       {/if}
-      <!-- <span>
+      <button
+        class="preview"
+        on:click={onOpenPreviews}
+      >
         See Previews
-      </span> -->
+      </button>
     </div>
   {/if}
 </section>
@@ -127,7 +139,19 @@
     padding-top: 58px;
     margin-bottom: 32px;
   }
-  a {
+  .preview {
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  .preview:hover {
+    text-decoration: underline;
+  }
+  .preview:active {
+    background-color: transparent;
+  }
+  .link {
     font-size: 22px;
     color: #FFFFFF;
     cursor: pointer;
@@ -136,6 +160,7 @@
   a:hover {
     transition: all 0.3s ease 0s;
 		transform: scale(1.2);
+    cursor: pointer;
   }
   .desc {
     max-width: 800px;
@@ -151,7 +176,7 @@
       padding-top: 0px;
       margin-bottom: 18px;
     }
-    a {
+    .link {
       font-size: 16px;
       margin-right: 1.5rem;
       margin-bottom: 0;

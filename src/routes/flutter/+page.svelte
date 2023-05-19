@@ -1,4 +1,5 @@
 <script>
+  import {isOpen, selectedImg} from "../../stores"
   import flutterLogo from "$lib/project_imgs/logo-flutter.svg";
   import ProjectHero from '../../components/ProjectHero.svelte';
   import ProjectSection from "../../components/ProjectSection.svelte";
@@ -9,6 +10,14 @@
   import tokokulogo from "$lib/project_imgs/tokoku-logo.png"
   import attendanceShowcase from "$lib/project_imgs/attendance-showcase.png"
   import attendancelogo from "$lib/project_imgs/attendance-logo.png"
+
+  /**
+     * @param {string} image
+     */
+  function handlePreview(image) {
+    isOpen.set(true)
+    selectedImg.set(image)
+  }
 </script>
 
 <svelte:head>
@@ -30,6 +39,7 @@
     showcase={zoShowcase}
     googlePlay="https://play.google.com/store/apps/details?id=com.zahironline&hl=en"
     appStore="https://apps.apple.com/id/app/zahir-apps/id1504813555?l=id"
+    onOpenPreviews={() => handlePreview(zoShowcase)}
   />
   <div class="py-3"></div>
   <ProjectSection
@@ -41,6 +51,7 @@
     with Gosend & offline."
     logo={tokokulogo}
     showcase={tokokuShowcase}
+    onOpenPreviews={() => handlePreview(tokokuShowcase)}
   />
   <div class="py-3"></div>
   <ProjectSection
@@ -51,6 +62,7 @@
     showcase={attendanceShowcase}
     googlePlay="https://play.google.com/store/apps/details?id=com.zahir.attendance&hl=en"
     appStore="https://apps.apple.com/id/app/zahir-hr/id1504841303?l=id"
+    onOpenPreviews={() => handlePreview(attendanceShowcase)}
   />
   <div class="py-4"></div>
 </section>
