@@ -22,17 +22,17 @@
   class="techs container-md mt-4 mb-5"
 >
   {#if visible}
-    <div class="pt-5" transition:fly="{{ y: 100, duration: 1000 }}">
+    <div class="pt-5" transition:fly="{{ y: 100, duration: 500 }}">
       <Divider />
     </div>
-    <h3 class="pt-3" transition:fly="{{ y: 100, duration: 1500 }}">
+    <h3 class="pt-3" transition:fly="{{ y: 100, duration: 1000 }}">
       Technologies
     </h3>
-    <p class="tech-desc" transition:fly="{{ y: 100, duration: 2000 }}">
+    <p class="tech-desc" transition:fly="{{ y: 100, duration: 1500 }}">
       I have experience using various technologies from the frontend to the backend.
     </p>
     <div class="row mt-3">
-      <div class="card-tech" transition:fly="{{ x: 100, duration: 2500 }}">
+      <div class="card-tech" transition:fly="{{ x: 100, duration: 2000 }}">
         <img src={flutterLogo} alt="icon" height="25">
         <p class="card-tech-title mt-2 pt-1">
           Flutter
@@ -43,7 +43,7 @@
         <a href="/flutter" class="see-project">See Projects</a>
       </div>
       <div class="mx-4"></div>
-      <div class="card-tech" transition:fly="{{ x: 100, duration: 3500 }}">
+      <div class="card-tech" transition:fly="{{ x: 100, duration: 2500 }}">
         <i class="fa-brands fa-react card-tech-ic"></i>
         <p class="card-tech-title mt-2">
           React
@@ -54,7 +54,7 @@
         <a href="/react" class="see-project">See Projects</a>
       </div>
       <div class="mx-4"></div>
-      <div class="card-tech" transition:fly="{{ x: 100, duration: 4500 }}">
+      <div class="card-tech" transition:fly="{{ x: 100, duration: 3000 }}">
         <img src={androidLogo} alt="icon" height="26">
         <p class="card-tech-title mt-2">
           Android Kotlin
@@ -65,7 +65,7 @@
         <a href="/android" class="see-project">See Projects</a>
       </div>
       <div class="mx-4"></div>
-      <div class="card-tech mt-3" transition:fly="{{ x: 100, duration: 5000 }}">
+      <div class="card-tech mt-3" transition:fly="{{ x: 100, duration: 3500 }}">
         <i class="fa-brands fa-node-js card-tech-ic"></i>
         <p class="card-tech-title mt-2">
           Restful API

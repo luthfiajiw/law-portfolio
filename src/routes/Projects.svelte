@@ -25,15 +25,15 @@
   class="projects container-md mt-4 mb-4"
 >
   {#if visible}
-    <div class="pt-5" transition:fly="{{ y: 100, duration: 1000 }}">
+    <div class="pt-5" transition:fly="{{ y: 100, duration: 500 }}">
       <Divider />
     </div>
-    <h3 class="pt-3" transition:fly="{{ y: 100, duration: 1500 }}">
+    <h3 class="pt-3" transition:fly="{{ y: 100, duration: 1000 }}">
       Projects
     </h3>
-    <p class="project-desc" transition:fly="{{ y: 100, duration: 2000 }}">
+    <p class="project-desc" transition:fly="{{ y: 100, duration: 1500 }}">
       Here are some projects that I have worked on with various technologies from the frontend to the backend.
-    <div class="d-flex flex-wrap card-row" transition:fly="{{ y: 100, duration: 2500 }}">
+    <div class="d-flex flex-wrap card-row" transition:fly="{{ x: 100, duration: 2000 }}">
       <Card
         imgPath={attendanceLogo}
         title="Zahir Attendance"

@@ -32,7 +32,7 @@
 >
   {#if visible}
     <div>
-      <div class="d-flex align-items-center" transition:fly="{{ y: 100, duration: 1000 }}">
+      <div class="d-flex align-items-center" transition:fly="{{ y: 100, duration: 500 }}">
         <img
           src={image}
           alt="icon"
@@ -44,7 +44,7 @@
           {name}
         </h2>
       </div>      
-      <p class="description mb-5" transition:fly="{{ y: 100, duration: 1500 }}">
+      <p class="description mb-5" transition:fly="{{ y: 100, duration: 1000 }}">
         {description}
       </p>
     </div>
@@ -53,7 +53,7 @@
       alt="icon"
       class="project-image mt-5"
       height="250"
-      transition:fly="{{ x: 100, duration: 2000 }}"
+      transition:fly="{{ x: 100, duration: 1500 }}"
     />
   {/if}
 </div>

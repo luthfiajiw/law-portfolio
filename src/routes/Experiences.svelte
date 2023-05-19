@@ -20,17 +20,17 @@
   class="exp container-md mt-4 mb-5 pb-4"
 >
   {#if visible}
-    <div class="pt-5" transition:fly="{{ y: 100, duration: 1000 }}">
+    <div class="pt-5" transition:fly="{{ y: 100, duration: 500 }}">
       <Divider />
     </div>
-    <h3 class="pt-3" transition:fly="{{ y: 100, duration: 1500 }}">
+    <h3 class="pt-3" transition:fly="{{ y: 100, duration: 1000 }}">
       Timeline
     </h3>
-    <p class="exp-desc mb-5" transition:fly="{{ y: 100, duration: 2000 }}">
+    <p class="exp-desc mb-5" transition:fly="{{ y: 100, duration: 1500 }}">
       Here is my career journey so far. Starting from being a mentor and helping to develop curricula to becoming a frontend developer.
     </p>
     <div class="experience mb-5">
-      <div class="step" transition:fly="{{ y: 100, duration: 2500 }}">
+      <div class="step" transition:fly="{{ y: 100, duration: 2000 }}">
         <div class="stepper">
           <div class="circle">
             <div class="circle2" />
@@ -49,7 +49,7 @@
           </div>
         </div>
       </div>
-      <div class="step" transition:fly="{{ y: 100, duration: 3000 }}">
+      <div class="step" transition:fly="{{ y: 100, duration: 2500 }}">
         <div class="stepper">
           <div class="circle">
             <div class="circle2" />
@@ -68,7 +68,7 @@
           </div>
         </div>
       </div>
-      <div class="step" transition:fly="{{ y: 100, duration: 3500 }}">
+      <div class="step" transition:fly="{{ y: 100, duration: 3000 }}">
         <div class="stepper">
           <div class="circle">
             <div class="circle2" />

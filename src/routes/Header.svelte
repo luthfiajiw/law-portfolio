@@ -19,7 +19,7 @@ use:viewport
 	class="header row align-items-center"
 >
 	{#if visible}
-		<div class="col-6" transition:fly="{{ x: -100, duration: 1000 }}">
+		<div class="col-6" transition:fly="{{ x: -100, duration: 500 }}">
 			<div class="d-flex p-4 align-items-center">
 				<a class="header-name" href="/">
 					S I L A W
@@ -27,7 +27,7 @@ use:viewport
 			</div>
 		</div>
 		<div
-			transition:fly="{{ x: 100, duration: 1000 }}"
+			transition:fly="{{ x: 100, duration: 500 }}"
 			class="col-6 d-flex justify-content-end align-items-center"
 		>
 			<div class="appbar p-4 d-flex justify-content-end">

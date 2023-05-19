@@ -24,7 +24,7 @@
   class="position-relative"
 >
   {#if browser && visible}
-    <div class="position-absolute" transition:fade="{{ duration: 2000 }}">
+    <div class="position-absolute" transition:fade="{{ duration: 500 }}">
       <LottiePlayer
         src="https://assets10.lottiefiles.com/packages/lf20_3nptdrnv.json"
         autoplay="{true}"
@@ -37,16 +37,16 @@
   {/if}
   {#if visible}
     <div class="hero container-md mt-5 pt-3 position-relative">
-      <h2 class="welcome" transition:fly="{{ y: 100, duration: 1000 }}">
+      <h2 class="welcome" transition:fly="{{ y: 100, duration: 500 }}">
         Selamat Datang <br>
         To Luthfi Aji's Portfolio
       </h2>
-      <p class="hi-from-me mb-5" transition:fly="{{ y: 100, duration: 1500 }}">
+      <p class="hi-from-me mb-5" transition:fly="{{ y: 100, duration: 1000 }}">
         I am Luthfi Aji Wicaksono, an experienced Mobile App Developer with expertise
         in Mobile Applications, Web Applications, Frontend Development, and Flutter Development.
       </p>
       <a 
-        transition:fly="{{ y: 100, duration: 2000 }}"
+        transition:fly="{{ y: 100, duration: 1500 }}"
         href="https://resume.showwcase.com/lthfiaw/2747.pdf"
         target="_blank"
         rel="noopener noreferrer"

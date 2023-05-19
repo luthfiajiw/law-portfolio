@@ -35,10 +35,10 @@
   {#if visible}
     <div class="d-flex justify-content-between mt-5">
       <div>
-        <div transition:fly="{{ y: 100, duration: 1000 }}">
+        <div transition:fly="{{ y: 100, duration: 500 }}">
           <Divider />
         </div>
-        <div class="d-flex align-items-center" transition:fly="{{ y: 100, duration: 1500 }}">
+        <div class="d-flex align-items-center" transition:fly="{{ y: 100, duration: 1000 }}">
           {#if logo !== ""}
             <img
               src={logo}
@@ -50,7 +50,7 @@
           {/if}
           <h3 class="pt-3">{name}</h3>
         </div>
-        <p class="desc mb-4"transition:fly="{{ y: 100, duration: 2000 }}">
+        <p class="desc mb-4"transition:fly="{{ y: 100, duration: 1500 }}">
           {description}
         </p>
       </div>
@@ -68,7 +68,7 @@
         <a href={appStore}
           target="_blank"
           rel="noopener noreferrer"
-          transition:fly="{{ x: -100, duration: 1000 }}"
+          transition:fly="{{ x: -100, duration: 500 }}"
         >
           <i class="fa-brands fa-app-store-ios"/>
         </a>  
@@ -77,7 +77,7 @@
         <a href={googlePlay}
           target="_blank"
           rel="noopener noreferrer"
-          transition:fly="{{ x: -100, duration: 1500 }}"
+          transition:fly="{{ x: -100, duration: 600 }}"
         >
           <i class="fa-brands fa-google-play"/>
         </a>   
@@ -86,7 +86,7 @@
         <a href={github}
           target="_blank"
           rel="noopener noreferrer"
-          transition:fly="{{ x: -100, duration: 2000 }}"
+          transition:fly="{{ x: -100, duration: 700 }}"
         >
           <i class="fa-brands fa-github"/>
         </a> 
@@ -95,7 +95,7 @@
         <a href={browser}
           target="_blank"
           rel="noopener noreferrer"
-          transition:fly="{{ x: -100, duration: 2500 }}"
+          transition:fly="{{ x: -100, duration: 800 }}"
         >
           <i class="fa-solid fa-globe"></i>
         </a>
@@ -104,7 +104,7 @@
         <a href={certificate}
           target="_blank"
           rel="noopener noreferrer"
-          transition:fly="{{ x: -100, duration: 3000 }}"
+          transition:fly="{{ x: -100, duration: 900 }}"
         >
           <i class="fa-solid fa-certificate"></i>
         </a>
