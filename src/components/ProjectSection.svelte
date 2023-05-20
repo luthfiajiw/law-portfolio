@@ -121,6 +121,7 @@
       {#if onOpenPreviews}
         <button
           class="preview"
+          transition:fly="{{ x: -100, duration: 900 }}"
           on:click={onOpenPreviews}
         >
           See Previews
@@ -146,6 +147,8 @@
     border: none;
     color: #FFFFFF;
     margin: 0;
+    padding: 0;
+    font-size: 18px;
   }
   .preview:hover {
     text-decoration: underline;
@@ -173,6 +176,9 @@
   }
 
   @media only screen and (max-width: 768px) {
+    .preview {
+      font-size: 16px;
+    }
     h3 {
       font-size: 24px;
       padding-top: 0px;

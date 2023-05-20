@@ -1,4 +1,5 @@
 <script>
+  import { isOpen, selectedImg, images } from "../../stores"
   import reactLogo from "$lib/project_imgs/logo-react.svg";
   import ProjectHero from "../../components/ProjectHero.svelte";
   import ProjectSection from "../../components/ProjectSection.svelte";
@@ -7,6 +8,27 @@
   import rupiahLogo from "$lib/project_imgs/r-icon.svg"
   import posxShowcase from "$lib/project_imgs/posx-showcase.png"
   import posxLogo from "$lib/project_imgs/posx-logo.png"
+
+  import rupiah1 from "$lib/project_imgs/rupiah-1.png"
+  import rupiah2 from "$lib/project_imgs/rupiah-2.png"
+  import rupiah3 from "$lib/project_imgs/rupiah-3.png"
+  import rupiah4 from "$lib/project_imgs/rupiah-4.png"
+
+  import posx0 from "$lib/project_imgs/posx-0.png"
+  import posx1 from "$lib/project_imgs/posx-1.png"
+  import posx2 from "$lib/project_imgs/posx-2.png"
+  import posx3 from "$lib/project_imgs/posx-3.png"
+  import posx4 from "$lib/project_imgs/posx-4.png"
+  import posx5 from "$lib/project_imgs/posx-5.png"
+
+  /**
+     * @param {string[]} previews
+     */
+  function handlePreview(previews) {
+    isOpen.set(true)
+    selectedImg.set(previews[0])
+    images.set(previews)
+  }
 </script>
 
 <svelte:head>
@@ -28,6 +50,7 @@
     imgHeight={275}
     github="https://github.com/luthfiajiw/rupiah-id"
     browser="https://rupiah-id.netlify.app/"
+    onOpenPreviews={() => handlePreview([rupiah1, rupiah2, rupiah3, rupiah4])}
   />
   <div class="space"></div>
   <ProjectSection
@@ -38,6 +61,7 @@
     showcase={posxShowcase}
     imgHeight={275}
     browser="https://pos.zahironline.com"
+    onOpenPreviews={() => handlePreview([posx0, posx1, posx2, posx3, posx4, posx5])}
   />
   <div class="py-4"></div>
 </section>

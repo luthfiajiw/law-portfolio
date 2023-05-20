@@ -38,7 +38,6 @@
       position: absolute;
       font-size: 20px;
       top: -40px;
-      right: 0;
       color: #ffffff;
   }
   .close button {
@@ -71,19 +70,22 @@
       height: 600px;
       background-position: center;
       object-fit: scale-down;
+      margin-left: 1rem;
   }
   .app-highlight {
         cursor: pointer;
         height: 65px;
-        width: 65px;
+        width: 60px;
         background-color: #eee;
         background-size: cover;
-        background-repeat: no-repeat;
-        border: 1px solid #eee;
+        background-position: center;
+        margin: 0!important;
+        border-radius: 4px;
     }
     .btn-highlight {
         outline: none;
         border: none;
+        padding: 0;
         margin-top: .5rem;
         border-radius: 4px;
     }
@@ -93,11 +95,12 @@
         width: 30px;
     }
       .photo-preview {
-          height: 400px;
+          height: 450px;
       }
 
       .photo-preview img {
-          height: 400px;
+          height: 450px;
+          margin: 0;
       }
   }
 </style>
