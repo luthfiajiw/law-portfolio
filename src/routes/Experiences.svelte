@@ -27,7 +27,7 @@
       Timeline
     </h3>
     <p class="exp-desc mb-5" transition:fly="{{ y: 100, duration: 1500 }}">
-      Here is my career journey so far. Starting from being a mentor and helping to develop curricula to becoming a frontend developer.
+      Here is my career journey so far. Starting from being a mentor and helping develop the curriculum to becoming a frontend developer.
     </p>
     <div class="experience mb-5">
       <div class="step" transition:fly="{{ y: 100, duration: 2000 }}">
