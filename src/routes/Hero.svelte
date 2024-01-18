@@ -47,7 +47,7 @@
       </p>
       <a 
         transition:fly="{{ y: 100, duration: 1500 }}"
-        href="https://resume.showwcase.com/lthfiaw/2747.pdf"
+        href="https://glints-dashboard.s3.ap-southeast-1.amazonaws.com/resume/4c327887409f0363621f26c7eae1f338.pdf?AWSAccessKeyId=AKIAJR3GSVCP6OKZQSZA&Expires=1705627528&Signature=dXr2BQQWGHXVKvaqv7q1oa2Il8s%3D"
         target="_blank"
         rel="noopener noreferrer"
       >
