@@ -47,7 +47,7 @@
       </p>
       <a 
         transition:fly="{{ y: 100, duration: 1500 }}"
-        href="https://glints-dashboard.s3.ap-southeast-1.amazonaws.com/resume/4c327887409f0363621f26c7eae1f338.pdf?AWSAccessKeyId=AKIAJR3GSVCP6OKZQSZA&Expires=1705627528&Signature=dXr2BQQWGHXVKvaqv7q1oa2Il8s%3D"
+        href="https://glints-dashboard.s3.ap-southeast-1.amazonaws.com/resume/4fad1b0b3a27c31f679c36844c3f769a.pdf?AWSAccessKeyId=AKIAJR3GSVCP6OKZQSZA&Expires=1705629229&Signature=gSQ51kv1IDw4Tr9%2FXcO8YlFvBlE%3D"
         target="_blank"
         rel="noopener noreferrer"
       >
