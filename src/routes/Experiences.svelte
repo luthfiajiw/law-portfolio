@@ -44,8 +44,8 @@
             <span class="period">Feb 2023 - Present <span class="mx-2">•</span> Fulltime</span>
           </p>
           <div class="job-desc text-secondary mb-3">
-            I am the first mobile developer here, my job is to help this company develop
-            their product on the mobile app side by ensuring the architecture is well built.
+            I am responsible for developing products on the mobile application side from development, testing, documentation to release by ensuring
+            the architecture is built well.
           </div>
         </div>
       </div>
