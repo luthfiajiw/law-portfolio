@@ -47,7 +47,7 @@
       </p>
       <a 
         transition:fly="{{ y: 100, duration: 1500 }}"
-        href="https://resume.showwcase.com/lthfiaw/2747.pdf"
+        href="https://drive.google.com/file/d/1W_M4f2VJi8SJGw7jGR5Cvyg2vRWMBEA8/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
