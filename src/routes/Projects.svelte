@@ -7,11 +7,11 @@
   import bankbooLogo from "$lib/project_imgs/bankboo-logo.png";
   import viewport from "../actions/useViewportAction";
 
-  $: visible = false
+  $:visible = false
 
   /**
-     * @param {boolean} val
-     */
+   * @param {boolean} val
+   */
   function handleVisibility(val) {
     visible = val
   }
@@ -24,7 +24,7 @@
   on:exitViewport={() => handleVisibility(false)}
   class="projects container-md mt-4 mb-4"
 >
-  {#if visible}
+  {#if visible === true}
     <div class="pt-5" transition:fly="{{ y: 100, duration: 500 }}">
       <Divider />
     </div>

@@ -19,7 +19,7 @@
   on:exitViewport={() => handleVisibility(false)}
   class="exp container-md mt-4 mb-5 pb-4"
 >
-  {#if visible}
+  {#if visible === true}
     <div class="pt-5" transition:fly="{{ y: 100, duration: 500 }}">
       <Divider />
     </div>

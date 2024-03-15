@@ -4,6 +4,8 @@
   import ProjectHero from '../../components/ProjectHero.svelte';
   import ProjectSection from "../../components/ProjectSection.svelte";
 
+  import clipoShowcase from "$lib/project_imgs/clipo-showcase.png"
+  import clipoLogo from "$lib/project_imgs/clipo_logo.png"
   import zoShowcase from "$lib/project_imgs/zo-showcase.png"
   import zoLogo from "$lib/project_imgs/zo_logo.png"
   import tokokuShowcase from "$lib/project_imgs/tokoku-dashboard.png"
@@ -11,6 +13,14 @@
   import attendanceShowcase from "$lib/project_imgs/attendance-showcase.png"
   import attendancelogo from "$lib/project_imgs/attendance-logo.png"
   
+  import cp1 from "$lib/project_imgs/cp-1.png"
+  import cp2 from "$lib/project_imgs/cp-2.png"
+  import cp3 from "$lib/project_imgs/cp-3.png"
+  import cp4 from "$lib/project_imgs/cp-4.png"
+  import cp5 from "$lib/project_imgs/cp-5.png"
+  import cp7 from "$lib/project_imgs/cp-6.png"
+  import cp6 from "$lib/project_imgs/cp-7.png"
+
   import zo1 from "$lib/project_imgs/zo-1.png"
   import zo2 from "$lib/project_imgs/zo-2.png"
   import zo3 from "$lib/project_imgs/zo-3.png"
@@ -53,6 +63,17 @@
     image={flutterLogo}
     description="Below are the Flutter projects I have worked on along with a description of each one."
   />
+  <ProjectSection
+    name="Clipo"
+    description="Clipo is an innovative breakthrough in the field of professional selection. 
+      Prioritizing client comfort by sending integrated and practical psychological test results reports."
+    logo={clipoLogo}
+    showcase={clipoShowcase}
+    googlePlay="https://play.google.com/store/apps/details?id=com.fac.clipo"
+    appStore="https://apps.apple.com/id/app/clipo/id6451285135"
+    onOpenPreviews={() => handlePreview([cp1, cp2, cp3, cp4, cp5, cp6, cp7])}
+  />
+  <div class="py-3"></div>
   <ProjectSection
     name="Zahir Apps"
     description="Zahir Online is an integrated financial and business recording application that produces financial reports quickly and accurately. 
