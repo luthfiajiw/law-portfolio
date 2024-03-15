@@ -159,7 +159,7 @@
   }
   .stepper .line {
     top: 24px;
-    left: 13px;
+    left: 12px;
     height: 100%;
     position: absolute;
     border-left: 6px solid #6c757d;
